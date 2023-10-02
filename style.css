@@ -59,6 +59,8 @@ ul {
 }
 /* Media Query para telas pequenas, como celulares */
 @media (max-width: 768px) {
+}
+
   .nave-bar ul {
     flex-direction: column; 
   }
