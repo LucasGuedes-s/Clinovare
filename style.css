@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-.nave-bar {
+.nav-bar {
   background-color: #333; 
   color: #fff; 
   width: 90%; 
@@ -15,7 +15,7 @@ ul {
   align-items: flex-end; 
   position: relative; /* Posição relativa para a linha */
 }
-.nave-bar::after {
+.nav-bar::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -25,19 +25,19 @@ ul {
   background-color: orange;
 }
 
-.nave-bar ul {
+.nav-bar ul {
   list-style-type: none;
   text-align: center; /* Centralizar os itens */
   padding: 10px 0; 
   border-bottom: 2px solid #ff0000; /* Linha na parte inferior */
 }
 
-.nave-bar li {
+.nav-bar li {
   margin: 0;
   padding: 10px 20px; /* Espaçamento entre os itens e abaixo da linha */
 }
 
-.nave-bar a {
+.nav-bar a {
   text-decoration: none; /* Remover sublinhado dos links */
   color: #0074cc; 
   display: block;
