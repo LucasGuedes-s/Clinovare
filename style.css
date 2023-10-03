@@ -36,7 +36,7 @@ ul {
   list-style-type: none;
   text-align: center; /* Centralizar os itens */
   padding: 10px 0; 
-  border-bottom: 2px solid #ff0000;
+  /* border-bottom: 2px solid #ff0000; */
   flex-direction: column;/* Linha na parte inferior */
 }
 
@@ -138,4 +138,9 @@ ul {
     background-color: lightgray;
     width: 50%;
     height: 50%;
+}
+
+.cadastro a {
+  text-decoration: none;
+  color: blue;
 }
