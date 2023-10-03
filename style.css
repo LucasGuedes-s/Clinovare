@@ -129,7 +129,9 @@ ul {
 .login-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .cada_login-input {
@@ -143,12 +145,15 @@ ul {
   font-size: 18px;
   color: white;
   border: none;
-  background-color: #0074cc;
+  background-color: rgba(16,83,117,255);
   width: 100%;
+  transition: background-color 0.5s ease;
 }
 
 .enviar-button:hover {
-  
+  cursor: pointer;
+  color: orange;
+  opacity: 0.8;
 }
 
 .link-cadastro a {
