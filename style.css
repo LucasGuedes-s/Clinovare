@@ -131,6 +131,12 @@ ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
+}
+
+.cada_login-input {
+  margin: 5px;
+  font-size: 18px;
 }
 
 .link-cadastro a {
