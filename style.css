@@ -57,6 +57,7 @@ ul {
 .nomes-links a:hover{
   color:orange;
 }
+
 /* Media Query para telas pequenas, como celulares */
 @media (max-width: 768px) {
 }
