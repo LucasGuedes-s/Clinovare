@@ -3,9 +3,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.logo-text {
+  font-size: 50px;
+  margin: 10px;
+}
+
 .nav-bar {
-  background-color: #333; 
-  color: #fff; 
+  background-color: #333333; 
+  color: #ffffff; 
   width: 90%; 
   max-width: 1200px; /* Largura máxima para evitar que a nave bar fique muito larga */
   margin: 0 auto; /* Centralizar a nave bar horizontalmente */
@@ -15,6 +21,7 @@ ul {
   align-items: flex-end; 
   position: relative; /* Posição relativa para a linha */
 }
+
 .nav-bar::after {
   content: "";
   position: absolute;
@@ -29,7 +36,8 @@ ul {
   list-style-type: none;
   text-align: center; /* Centralizar os itens */
   padding: 10px 0; 
-  border-bottom: 2px solid #ff0000; /* Linha na parte inferior */
+  border-bottom: 2px solid #ff0000;
+  flex-direction: column;/* Linha na parte inferior */
 }
 
 .nav-bar li {
@@ -53,9 +61,6 @@ ul {
   color: #0074cc; 
   margin: 0 20px;
   transition: color 0.3s;
-}
-.nomes-links a:hover{
-  color:orange;
 }
 
 .footer {
@@ -93,6 +98,10 @@ ul {
   text-decoration: none;
 }
 
+.nomes-links a:hover{
+  color:orange;
+}
+
 .footer ul {
   list-style-type: none;
   padding: 0;
@@ -105,18 +114,28 @@ ul {
 
 
 /* Media Query para telas pequenas, como celulares */
-@media (max-width: 768px) {
+@media {
+  max-width: 768px;
 }
 
-  .nave-bar ul {
-    flex-direction: column; 
-  }
-
-  .nave-bar li {
+.nav-bar li {
     padding: 10px 0; 
   }
 
-  .nomes-links {
+.nomes-links {
     margin-top: 20px; 
 }
-  
+
+/* LOGIN */
+
+.login-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login-background {
+    background-color: lightgray;
+    width: 50%;
+    height: 50%;
+}
