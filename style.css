@@ -58,6 +58,52 @@ ul {
   color:orange;
 }
 
+.footer {
+  background-color: rgba(16,83,117,255);
+  color: white;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer h2 {
+  font-size: 24px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+
+
 /* Media Query para telas pequenas, como celulares */
 @media (max-width: 768px) {
 }
