@@ -140,7 +140,11 @@ ul {
     height: 50%;
 }
 
-.cadastro a {
+.link-cadastro a {
   text-decoration: none;
   color: blue;
+}
+
+.link-cadastro a:hover {
+  color: orange;
 }
