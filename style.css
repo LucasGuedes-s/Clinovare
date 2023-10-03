@@ -67,7 +67,7 @@ ul {
   background-color: rgba(16,83,117,255);
   color: white;
   padding: 20px 0;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -111,8 +111,6 @@ ul {
   margin-bottom: 10px;
 }
 
-
-
 /* Media Query para telas pequenas, como celulares */
 @media {
   max-width: 768px;
@@ -129,15 +127,10 @@ ul {
 /* LOGIN */
 
 .login-container {
-    display: grid;
-    place-items: center;
-    height: 100vh;
-}
-
-.login-background {
-    background-color: lightgray;
-    width: 50%;
-    height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .link-cadastro a {
