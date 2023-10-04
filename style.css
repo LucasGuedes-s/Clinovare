@@ -69,7 +69,8 @@ ul {
 }
 
 .content {
-     flex-grow: 5;
+  margin-bottom: 20px; /* Altere o valor conforme necessário */
+  flex-grow: 1;
 }
 
 .footer {
@@ -143,16 +144,18 @@ ul {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   border-color: 1px solid black;
+  height: 60vh;
 }
 
 .login-input {
   margin-bottom: 10px;
   font-size: 18px;
   width: 100%;
+  border: 1px solid black;
+  boreder
 }
 
 .login-input:focus {
-  border-color: rgba(16, 83, 117, 255);
   box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
 }
 
