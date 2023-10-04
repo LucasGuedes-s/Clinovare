@@ -1,9 +1,8 @@
 body{
-  body,
-ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
-}
 }
 ul {
   margin: 0;
@@ -70,7 +69,7 @@ ul {
 }
 
 .content {
-    margin-bottom: 20px; /* Altere o valor conforme necessário */
+     flex-grow: 5;
 }
 
 .footer {
@@ -146,15 +145,16 @@ ul {
   border-color: 1px solid black;
 }
 
-.cada_login-input {
+.login-input {
   margin-bottom: 10px;
   font-size: 18px;
   width: 100%;
 }
 
-.cada_login-input:focus [
-  border-color:
-
+.login-input:focus {
+  border-color: rgba(16, 83, 117, 255);
+  box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
+}
 
 .enviar-button {
   margin-bottom: 10px;
@@ -172,6 +172,7 @@ ul {
 .enviar-button:hover {
   cursor: pointer;
   color: orange;
+  box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
 }
 
 .link-cadastro a {
