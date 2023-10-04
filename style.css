@@ -67,7 +67,7 @@ ul {
   background-color: rgba(16,83,117,255);
   color: white;
   padding: 20px 0;
-  position: fixed;
+  height: 40%;
   bottom: 0;
   width: 100%;
 }
