@@ -63,6 +63,10 @@ ul {
   transition: color 0.3s;
 }
 
+.content {
+  margin-bottom: 20px; /* Altere o valor conforme necessário */
+}
+
 .footer {
   background-color: rgba(16,83,117,255);
   color: white;
@@ -132,6 +136,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .cada_login-input {
@@ -142,6 +147,7 @@ ul {
 
 .enviar-button {
   margin-bottom: 10px;
+  margin-left: 4px;
   padding: 5px;
   font-size: 18px;
   color: white;
@@ -155,7 +161,6 @@ ul {
 .enviar-button:hover {
   cursor: pointer;
   color: orange;
-  opacity: 0.8;
 }
 
 .link-cadastro a {
