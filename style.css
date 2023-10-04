@@ -161,11 +161,18 @@ ul {
 }
 
 #identificador {
-  
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/user.svg?v=1696384230548');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
+
 #senha {
-  
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/password.svg?v=1696384167340');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
 .enviar-button {
