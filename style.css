@@ -1,4 +1,10 @@
-body,
+body{
+  body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+}
 ul {
   margin: 0;
   padding: 0;
@@ -64,7 +70,7 @@ ul {
 }
 
 .content {
-  margin-bottom: 20px; /* Altere o valor conforme necessário */
+    margin-bottom: 20px; /* Altere o valor conforme necessário */
 }
 
 .footer {
@@ -136,7 +142,8 @@ ul {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  border-color: 1px solid black;
 }
 
 .cada_login-input {
@@ -144,6 +151,10 @@ ul {
   font-size: 18px;
   width: 100%;
 }
+
+.cada_login-input:focus [
+  border-color:
+
 
 .enviar-button {
   margin-bottom: 10px;
