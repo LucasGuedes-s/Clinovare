@@ -120,6 +120,22 @@ ul {
 .footer ul li {
   margin-bottom: 10px;
 }
+/* Estilize o ícone aqui, se necessário */
+        .icone {
+            width: 16px; /* Defina o tamanho do ícone conforme necessário */
+            height: 16px;
+            margin-right: 8px; /* Adicione um espaçamento à direita do ícone */
+            vertical-align: middle; /* Alinhe verticalmente com o texto */
+}
+ /* Ajuste o espaçamento entre o ícone e o texto */
+        .icone-nome {
+            margin-left: -10px; /* Ajuste o valor conforme necessário */
+        }
+/* Altere a cor do ícone quando estiver em foco (hover) */
+        .icone:hover {
+            fill: yellow; /* Cor amarela quando o mouse passa por cima */
+        }
+
 
 /* Media Query para telas pequenas, como celulares */
 @media {
