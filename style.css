@@ -133,6 +133,11 @@ ul {
 .icone:hover {
   fill: orange; 
 }
+.icon-hover:hover {
+    fill: orange; /* Altera a cor de preenchimento para laranja */
+    transition: fill 0.3s ease; /* Adiciona uma transição suave de cor */
+}
+
 
 /* Media Query para telas pequenas, como celulares */
 @media {
