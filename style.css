@@ -151,6 +151,21 @@ ul {
 .nomes-links {
   margin-top: 20px;
 }
+/* Solicitar */
+.solicitar-conteiner{
+  display: flex;
+  margin: 3% auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  border-color: 1px solid black;
+  height: 50vh;
+  background-color: #f2f2f2;
+}
+
 
 /* LOGIN */
 
