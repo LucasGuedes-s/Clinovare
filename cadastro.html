@@ -31,7 +31,7 @@
         <!--área de cadastro-->
     <div class="login-container">
       <div>
-        <h1>Cadastre-se</h1>
+        <h1>Cadastro</h1>
         <p>
           Insira os dados solicitados para realizar o cadastro.
         </p>
@@ -39,12 +39,15 @@
 
       <form>
         <div>
-          <input type="text" name="identificador" id="identificador" class="login-input" placeholder="Identificador"/>
+          <input type="text" name="email" id="email" class="login-input" placeholder="E-mail"/>
         </div>
         <div>
-          <input type="password" name="senha" id="senha" class="login-input" placeholder="Senha"/>
+          <input type="password" name="senha" id="digitar-senha" class="login-input" placeholder="Senha"/>
         </div>
-        <button class="enviar-button">Enviar</button>
+        <div>
+          <input type="password" name="senha" id="confirmar-senha" class="login-input" placeholder="insira sua senha novamente"/>
+        </div>
+        <button id="cadastro-button" class="enviar-button">Cadastre-se</button>
       </form>
 
       <div class="link-cadastro">
