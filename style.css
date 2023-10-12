@@ -172,10 +172,10 @@ ul {
   margin-right: 8px;
 }
 
-.icone {
-  width: 16px; /* Defina o tamanho do ícone conforme necessário */
-  height: 16px;
-  margin-right: 8px; /* Adiciona um espaçamento à direita do ícone */
+.icone-img{
+  width: 23px; /* Defina o tamanho do ícone conforme necessário */
+  height: 20px;
+  margin-right: 2px; /* Adiciona um espaçamento à direita do ícone */
   vertical-align: middle; /* Alinhe verticalmente com o texto */
   filter: invert(1);
   margin-left: -5px;
@@ -208,19 +208,6 @@ ul li img {
   margin-right: 5px;
   vertical-align: middle;
 }
-
-/* Ajuste o espaçamento entre o ícone e o texto */
-.icone-nome {
-  margin-left: -10px; /* Ajuste o valor conforme necessário */
-}
-.icone:hover {
-  fill: orange;
-}
-.icon-hover:hover {
-  fill: orange; /* Altera a cor de preenchimento para laranja */
-  transition: fill 0.3s ease; /* Adiciona uma transição suave de cor */
-}
-
 /* Media Query para telas pequenas, como celulares */
 @media {
   max-width: 768px;
