@@ -50,13 +50,16 @@
             <option value="naoinformado">Prefiro não informar</option>
         </select>
         <div>
-          <label>Data de Nascimento</label>
+          <label for="dataNascimento">Data de Nascimento</label>
           <input type="date" id="dataNascimento" class="login-input" name="dataNascimento" required/>
         </div>
         <div>
-          <div>
-          <input type="tel" pattern="/d*" name="telefone" class="login-input" id="telefone-cadastro" title="Por favor, insira apenas números" placeholder="Telefone" required>
-          </div>
+        <div>
+          <input type="tel" pattern="/d*" name="telefone" class="login-input" id="telefone-cadastro" title="Insira um número de telefone válido." placeholder="Telefone" required>
+        </div>
+        <div>
+          <input type="text" pattern="/d*" name="cpf" class="login-input" id="cpf-cadastro" title="Por favor, insira apenas números" placeholder="CPF" required>
+        </div>
           <input type="email" name="email" id="email" class="login-input" placeholder="E-mail" required/>
         </div>
         <div>
@@ -65,7 +68,7 @@
         <div>
           <input type="password" name="confirmarSenha" id="confirmar-senha" class="login-input" placeholder="Confirmar" required/>
         </div>
-        <button id="cadastro-button" class="enviar-button">Cadastre-se</button>
+        <button type="submit" id="cadastro-button" class="enviar-button">Cadastre-se</button>
       </form>
 
       <div class="link-cadastro">
