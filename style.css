@@ -131,13 +131,12 @@ ul {
   margin-left: -10px; /* Ajuste o valor conforme necessário */
 }
 .icone:hover {
-  fill: orange; 
+  fill: orange;
 }
 .icon-hover:hover {
-    fill: orange; /* Altera a cor de preenchimento para laranja */
-    transition: fill 0.3s ease; /* Adiciona uma transição suave de cor */
+  fill: orange; /* Altera a cor de preenchimento para laranja */
+  transition: fill 0.3s ease; /* Adiciona uma transição suave de cor */
 }
-
 
 /* Media Query para telas pequenas, como celulares */
 @media {
@@ -153,7 +152,7 @@ ul {
 }
 
 /* Solicitar atendimento*/
-.solicitar-conteiner{
+.solicitar-conteiner {
   display: flex;
   width: 500px;
   margin: 50px;
@@ -169,24 +168,36 @@ ul {
 }
 
 .solicitar-conteiner label {
-    display: flex;
-    font-weight: bold;
-    margin-right: 10px;
-    text-align-last: justify;
-    justify-content: center;
-
+  display: flex;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align-last: justify;
+  justify-content: center;
 }
 
 .solicitar-conteiner input {
-    flex: 2;
-    width: 400px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
+  flex: 2;
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
 }
-.img-solicitar img{
+.img-solicitar img {
   width: 450px;
+}
+.container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.form-container {
+  flex: 1; /* Ocupa o espaço restante */
+}
+
+.img-solicitar {
+  flex: 1; /* Ocupa o espaço restante */
+  text-align: center; /* Alinha a imagem no centro horizontalmente */
 }
 
 /* LOGIN */
