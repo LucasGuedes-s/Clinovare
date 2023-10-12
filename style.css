@@ -12,10 +12,9 @@ ul {
 }
 
 .nav-bar {
-  background-color: #333333;
+  background-color: #263138;
   color: #ffffff;
-  width: 90%;
-  max-width: 1200px; /* Largura máxima para evitar que a nave bar fique muito larga */
+  width: 100%;
   margin: 0 auto; /* Centralizar a nave bar horizontalmente */
   height: 100px; /* Espessura (altura) da nave bar */
   display: flex;
@@ -259,6 +258,12 @@ input[type="datetime-local"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/*SLAIDE INICIAL*/
+.imagem-inicial img{
+  margin-top: 10px;
+  width: 100%;
 }
 /* LOGIN */
 
