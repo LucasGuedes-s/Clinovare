@@ -55,12 +55,12 @@ ul {
 .nomes-links {
   text-align: center;
   margin-top: 10px;
-  font-size: 19px
+  font-size: 20px
 }
 
 .nomes-links a {
   text-decoration: none;
-  color: #75BFAB;
+  color: #68A897;
   margin: 0 20px;
   transition: color 0.3s;
 }
@@ -284,12 +284,13 @@ input[type="datetime-local"] {
   font-family: 'Montserrat', sans-serif;
   border: 1px solid rgb(210, 206, 214);
   border-radius: 20px;
-  height: 50vh;
+  width: 40%;
   }
 
 .login-input {
   margin-bottom: 10px;
   font-size: 18px;
+  padding: 5px;
   width: 100%;
 }
 
@@ -318,7 +319,7 @@ input[type="datetime-local"] {
   font-size: 18px;
   color: white;
   border: none;
-  background-color: rgba(16, 83, 117, 255);
+  background-color: #75BFAB;
   width: 100%;
   transition: background-color 0.5s ease;
   align-self: center;
