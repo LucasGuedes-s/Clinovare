@@ -87,7 +87,7 @@ ul {
 }
 
 .content {
-  margin-bottom: 40%;
+  margin-bottom: 20%;
 }
 
 
@@ -177,7 +177,38 @@ ul {
   height: 16px;
   margin-right: 8px; /* Adiciona um espaçamento à direita do ícone */
   vertical-align: middle; /* Alinhe verticalmente com o texto */
+  filter: invert(1);
+  margin-left: -5px;
 }
+.footer-section {
+    color: white; /* Define a cor do texto como branca */
+    padding-right: 10%;
+}
+.footer-section a {
+    color: white; /* Define a cor dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links (opcional) */
+    font-size: 16px;
+}
+.footer-section ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+}
+
+.footer-section ul li {
+    margin-left: 0; /* Remove o recuo padrão das listas (opcional) */
+}
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px; /* Adicione uma margem inferior de 10px a todos os elementos <li> */
+}
+
+/* Estilos para a imagem dentro dos elementos <li> */
+ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 /* Ajuste o espaçamento entre o ícone e o texto */
 .icone-nome {
   margin-left: -10px; /* Ajuste o valor conforme necessário */
