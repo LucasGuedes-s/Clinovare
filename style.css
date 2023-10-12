@@ -155,7 +155,8 @@ ul {
 /* Solicitar atendimento*/
 .solicitar-conteiner{
   display: flex;
-  margin: 3% auto;
+  width: 500px;
+  margin: 50px;
   padding: 10px;
   align-items: left;
   justify-content: center;
@@ -168,21 +169,25 @@ ul {
 }
 
 .solicitar-conteiner label {
-    flex: 1;
+    display: flex;
     font-weight: bold;
     margin-right: 10px;
     text-align-last: justify;
+    justify-content: center;
 
 }
 
 .solicitar-conteiner input {
     flex: 2;
+    width: 400px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none;
 }
-
+.img-solicitar img{
+  width: 450px;
+}
 
 /* LOGIN */
 
