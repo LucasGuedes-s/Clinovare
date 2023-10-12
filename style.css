@@ -65,11 +65,6 @@ ul {
   transition: color 0.3s;
 }
 
-.content {
-  margin-bottom: 20px; /* Altere o valor conforme necessário */
-  flex-grow: 1;
-}
-
 .footer {
   background-color: rgba(16, 83, 117, 255);
   color: white;
@@ -78,13 +73,16 @@ ul {
   bottom: 0;
   width: 100%;
 }
-
 .container {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+.content {
+  margin-bottom: 20px; /* Altere o valor conforme necessário */
+  flex-grow: 1;
 }
 
 .footer-section {
@@ -124,7 +122,7 @@ ul {
   background-size: cover;
   filter: invert(1);
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 8px;
   background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/whatsapp.svg?v=1697118932039');
 }
 
@@ -134,7 +132,7 @@ ul {
   background-size: cover;
   filter: invert(1);
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 8px;
   background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/telefone.svg?v=1697118936125');
 }
 
