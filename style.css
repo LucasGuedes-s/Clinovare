@@ -176,7 +176,6 @@ ul {
 }
 
 .solicitar-conteiner input {
-  flex: 2;
   width: 400px;
   padding: 8px;
   border: 1px solid #ccc;
@@ -184,20 +183,7 @@ ul {
   outline: none;
 }
 .img-solicitar img {
-  width: 450px;
-}
-.container {
-  display: flex;
-  align-items: center; /* Alinha verticalmente ao centro */
-}
-
-.form-container {
-  flex: 1; /* Ocupa o espaço restante */
-}
-
-.img-solicitar {
-  flex: 1; /* Ocupa o espaço restante */
-  text-align: center; /* Alinha a imagem no centro horizontalmente */
+  width: 250px;
 }
 
 /* LOGIN */
