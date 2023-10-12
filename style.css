@@ -318,7 +318,7 @@ input[type="datetime-local"] {
   align-self: center;
 }
 
-.enviar-button:hover {
+.enviar-botã:hover {
   cursor: pointer;
   color: orange;
   box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
