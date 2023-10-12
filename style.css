@@ -117,6 +117,69 @@ ul {
 .footer ul li {
   margin-bottom: 10px;
 }
+
+.whatsapp{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/whatsapp.svg?v=1697118932039');
+}
+
+.telefone{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/telefone.svg?v=1697118936125');
+}
+
+.email{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/email.svg?v=1697118951223');
+}
+
+.fecebook{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/facebook.svg?v=1697118947458');
+}
+
+.instagram{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/instagram.svg?v=1697118940573');
+}
+
+.youtube{
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/youtube.svg?v=1697118927754');
+}
+
+
+
 .icone {
   width: 16px; /* Defina o tamanho do ícone conforme necessário */
   height: 16px;
