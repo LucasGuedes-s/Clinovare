@@ -152,40 +152,67 @@ ul {
 }
 
 /* Solicitar atendimento*/
+.img-solicitar img {
+  max-width: 40%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 55px;
+}
 .solicitar-conteiner {
-  display: flex;
-  width: 500px;
-  margin: 50px;
-  padding: 10px;
-  align-items: left;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  border-color: 1px solid black;
-  height: 50vh;
-  background-color: #f2f2f2;
+  margin: 70px;
+  margin-top: 150px;
+  float: left;
+  width: 40%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  overflow: hidden; /* Adicionando overflow para conter o float */
+}
+
+.solicitar-conteiner form {
+  margin-bottom: 20px;
+}
+
+.text,
+div {
+  margin-bottom: 10px;
 }
 
 .solicitar-conteiner label {
-  display: flex;
+  display: inline-block;
+  width: 150px;
   font-weight: bold;
-  margin-right: 10px;
-  text-align-last: justify;
-  justify-content: center;
 }
-
-.solicitar-conteiner input {
-  width: 400px;
-  padding: 8px;
+.solicitar-conteiner select {
+  width: 370px;
+  padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-}
-.img-solicitar img {
-  width: 250px;
+  border-radius: 3px;
+  font-size: 14px;
 }
 
+input[type="text"],
+input[type="datetime-local"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+button {
+  display: block;
+  width: 97%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #9666ca;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 /* LOGIN */
 
 .login-container {
