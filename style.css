@@ -66,24 +66,21 @@ ul {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: rgba(16, 83, 117, 255);
   color: white;
   padding: 20px 0;
-  height: 40%;
-  bottom: 0;
-  width: 100%;
+  z-index: 1; /* Certifique-se de que o footer esteja na parte superior de outros elementos fixos */
 }
-.container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+
 .content {
-  margin-bottom: 20px; /* Altere o valor conforme necessário */
-  flex-grow: 1;
+  margin-bottom: /* Altura do footer */; /* Ajuste a altura conforme necessário */
+  /* Outros estilos do conteúdo */
 }
+
 
 .footer-section {
   flex: 1;
@@ -123,7 +120,6 @@ ul {
   filter: invert(1);
   display: inline-block;
   margin-right: 8px;
-  background-image: url('https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/whatsapp.svg?v=1697118932039');
 }
 
 .telefone{
