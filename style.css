@@ -81,9 +81,10 @@ ul {
   margin: 0 auto;
   padding: 0 20px;
   flex-grow: 1;
+}
 
 .content {
-  flex-grow: 1;
+  margin-bottom: 40%;
 }
 
 
