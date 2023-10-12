@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro - Clínica</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   </head>
   <body>
     <!--navbar-->
@@ -38,14 +35,18 @@
       </div>
 
       <form>
+       <label for="genero">Gênero:</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+            <option value="naoinformado">Prefiro não informar</option>
+        </select>
         <div>
           <input type="email" name="email" id="email" class="login-input" placeholder="E-mail"/>
         </div>
         <div>
           <input type="password" name="senha" id="digitar-senha" class="login-input" placeholder="Senha"/>
-        </div>
-        <div>
-          <input type="password" name="senha" id="confirmar-senha" class="login-input" placeholder="Repita a senha"/>
         </div>
         <button id="cadastro-button" class="enviar-button">Cadastre-se</button>
       </form>
