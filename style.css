@@ -1,7 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   margin: 0;
 }
 ul {
@@ -153,17 +150,18 @@ ul {
 
 /* Solicitar atendimento*/
 .img-solicitar img {
-  max-width: 40%;
+  max-width: 30%;
+  float: right;
   height: auto;
-  margin-left: 20px;
   margin-top: 55px;
+  margin-right: 50px;
+  
 }
 .solicitar-conteiner {
   margin: 70px;
-  margin-top: 150px;
   float: left;
   width: 40%;
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -173,11 +171,6 @@ ul {
 
 .solicitar-conteiner form {
   margin-bottom: 20px;
-}
-
-.text,
-div {
-  margin-bottom: 10px;
 }
 
 .solicitar-conteiner label {
@@ -193,7 +186,7 @@ div {
   font-size: 14px;
 }
 
-input[type="text"],
+.solicitar-conteiner input[type="text"],
 input[type="datetime-local"] {
   width: 350px;
   padding: 10px;
@@ -201,12 +194,12 @@ input[type="datetime-local"] {
   border-radius: 3px;
   font-size: 14px;
 }
-button {
+.solicitar-conteiner button {
   display: block;
   width: 97%;
   margin-top: 10px;
   padding: 10px;
-  background-color: #9666ca;
+  background-color: black;
   color: #ffffff;
   font-weight: bold;
   border: none;
