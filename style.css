@@ -66,14 +66,12 @@ ul {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   background-color: rgba(16, 83, 117, 255);
   color: white;
   padding: 20px 0;
-  z-index: 1; /* Certifique-se de que o footer esteja na parte superior de outros elementos fixos */
+  height: 40%;
+  bottom: 0;
+  width: 100%;
 }
 
 .container {
@@ -82,18 +80,12 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
+  flex-grow: 1;
 
 .content {
-  margin-bottom: 60px; /* Ajuste a altura conforme necessário */
   flex-grow: 1;
 }
 
-
-
-.footer-section {
-  flex: 1;
-}
 
 .footer h2 {
   font-size: 24px;
@@ -150,7 +142,7 @@ ul {
 }
 
 .fecebook{
-  width: 23px;
+  width: 25px;
   height: 23px;
   background-size: cover;
   filter: invert(1);
@@ -168,7 +160,7 @@ ul {
 }
 
 .youtube{
-  width: 23px;
+  width: 32px;
   height: 23px;
   background-size: cover;
   filter: invert(1);
