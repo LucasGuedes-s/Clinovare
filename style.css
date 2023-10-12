@@ -73,6 +73,8 @@ ul {
   height: 40%;
   bottom: 0;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .container {
@@ -170,8 +172,6 @@ ul {
   margin-right: 8px;
 }
 
-
-
 .icone {
   width: 16px; /* Defina o tamanho do ícone conforme necessário */
   height: 16px;
@@ -217,7 +217,7 @@ ul {
   width: 40%;
   padding: 20px;
   border-radius: 5px;
-  border: 2px solid red;
+  border: 1px solid #75BFAB;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
   overflow: hidden; /* Adicionando overflow para conter o float */
@@ -332,15 +332,15 @@ input[type="datetime-local"] {
 
 .enviar-button:hover {
   cursor: pointer;
-  color: orange;
+  color: #68A897;
   box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
 }
 
 .link-cadastro a {
   text-decoration: none;
-  color: blue;
+  color: #68A897;
 }
 
 .link-cadastro a:hover {
-  color: orange;
+  color: #75BFAB;
 }
