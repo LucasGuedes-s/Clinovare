@@ -214,14 +214,6 @@ ul li img {
   max-width: 768px;
 }
 
-.nav-bar li {
-  padding: 10px 0;
-}
-
-.nomes-links {
-  margin-top: 20px;
-}
-
 /* Solicitar atendimento*/
 .img-solicitar img {
   max-width: 40%;
@@ -293,13 +285,18 @@ input[type="datetime-local"] {
   justify-content: space-around;
 }
 
-h1{ color: #263138;
+h1{ color: #75BFAB;
   text-align: center;
   font-size: 50px
 }
 .profissional img{
   width: 250px;
   border-radius: 20px;
+}
+.profissional{
+  color: #263138;
+  width: 20%;
+  text-align: center;
 }
 .profissionais h2{ 
   color: #263138;
