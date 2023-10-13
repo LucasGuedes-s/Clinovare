@@ -289,6 +289,10 @@ input[type="datetime-local"] {
   cursor: pointer;
 }
 
+.profissional img{
+  width: 250px;
+  border-radius: 20px;
+}
 /*SLAIDE INICIAL*/
 .imagem-inicial img{
   margin-top: 10px;
