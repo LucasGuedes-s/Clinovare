@@ -288,7 +288,14 @@ input[type="datetime-local"] {
   border-radius: 4px;
   cursor: pointer;
 }
+.profissionais{
+  display: flex;
+  justify-content: space-around;
+}
 
+h1{ color: #263138;
+  text-align: center;
+}
 .profissional img{
   width: 250px;
   border-radius: 20px;
