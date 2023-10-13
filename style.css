@@ -393,6 +393,15 @@ h3{
     text-decoration-thickness: 1px; 
     text-underline-offset: 15px; 
   }
+
+text.esp{
+   color: #red;
+}
+
+h4{
+  color: #68A897;
+  font-size: 20px;
+}
   
   h3{
     color: #526175;
@@ -401,7 +410,7 @@ h3{
   
 .quadrado-espec {
     width: 300px;
-    height: 320px;
+    height: 330px;
     background-color: #EFF4F2;
     box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
     border: 2px solid #75BFAB;
@@ -413,16 +422,12 @@ h3{
     align-items: center;
 }
 .quadrado-espec img {
-    width: 110px;
+    width: 130px;
     height: auto;
     margin-bottom: 10px;
 }
 
-.quadrado h2,
-.quadrado-espec p {
-    margin: 10px 0;
-    color: #68A897;
-}
+
 
 .quadrado-espec button {
     margin-top: 15px;
