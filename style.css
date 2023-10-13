@@ -66,6 +66,9 @@ ul {
   margin: 0 20px;
   transition: color 0.3s;
 }
+.nomes-links a:hover {
+  color: #526175;
+}
 
 .footer {
   background-color: #68A897;
@@ -86,12 +89,6 @@ ul {
   padding: 0 20px;
   flex-grow: 1;
 }
-
-.content {
-  margin-bottom: 20%;
-}
-
-
 .footer h2 {
   font-size: 24px;
 }
@@ -104,10 +101,6 @@ ul {
 .footer a {
   color: white;
   text-decoration: none;
-}
-
-.nomes-links a:hover {
-  color: #526175;
 }
 
 .footer ul {
@@ -174,32 +167,32 @@ ul {
 }
 
 .icone-img{
-  width: 23px; /* Defina o tamanho do ícone conforme necessário */
+  width: 23px;
   height: 20px;
-  margin-right: 2px; /* Adiciona um espaçamento à direita do ícone */
-  vertical-align: middle; /* Alinhe verticalmente com o texto */
+  margin-right: 2px;
+  vertical-align: middle;
   filter: invert(1);
   margin-left: -5px;
 }
 .footer-section {
-    color: white; /* Define a cor do texto como branca */
+    color: white; 
     padding-right: 10%;
 }
 .footer-section a {
-    color: white; /* Define a cor dos links como branca */
-    text-decoration: none; /* Remove o sublinhado dos links (opcional) */
+    color: white; 
+    text-decoration: none; 
     font-size: 16px;
 }
 .footer-section ul {
-    list-style-type: none; /* Remove os marcadores de lista */
+    list-style-type: none; 
 }
 
 .footer-section ul li {
-    margin-left: 0; /* Remove o recuo padrão das listas (opcional) */
+    margin-left: 0; 
 }
 ul li {
   list-style-type: none;
-  margin-bottom: 10px; /* Adicione uma margem inferior de 10px a todos os elementos <li> */
+  margin-bottom: 10px; 
 }
 
 /* Estilos para a imagem dentro dos elementos <li> */
@@ -285,13 +278,17 @@ input[type="datetime-local"] {
   justify-content: space-around;
 }
 
-h1{ color: #75BFAB;
+h1{ color: #68A897;
   text-align: center;
-  font-size: 50px
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; 
+  text-underline-offset: 15px; 
 }
 .profissional img{
   width: 250px;
   border-radius: 20px;
+  border: 1px solid #75BFAB;
 }
 .profissional{
   color: #263138;
@@ -299,7 +296,7 @@ h1{ color: #75BFAB;
   text-align: center;
 }
 .profissionais h2{ 
-  color: #263138;
+  color: #68A897;
   text-align: center;
 }
 /*SLAIDE INICIAL*/
