@@ -280,18 +280,24 @@ input[type="datetime-local"] {
 
 h1{ color: #68A897;
   text-align: center;
-  font-size: 50px;
+  font-size: 52px;
   text-decoration: underline;
   text-decoration-thickness: 1px; 
   text-underline-offset: 15px; 
 }
+
+h3{
+  color: #526175;
+  margin-top: -12px;
+}
+
 .profissional img{
   width: 250px;
   border-radius: 20px;
-  border: 1px solid #75BFAB;
+  border: 2px solid #68A897;
 }
 .profissional{
-  color: #263138;
+  color: #68A897;
   width: 20%;
   text-align: center;
 }
