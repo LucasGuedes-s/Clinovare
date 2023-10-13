@@ -400,7 +400,7 @@ text.esp{
 
 h4{
   color: #68A897;
-  font-size: 20px;
+  font-size: 23px;
 }
   
   h3{
@@ -422,9 +422,9 @@ h4{
     align-items: center;
 }
 .quadrado-espec img {
-    width: 130px;
+    width: 120px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: -10;
 }
 
 
@@ -432,7 +432,7 @@ h4{
 .quadrado-espec button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #75BFAB;
+    background-color: #68A897;
     color: white;
     border: none;
     border-radius: 5px;
