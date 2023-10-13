@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 ul {
   margin: 0;
@@ -250,12 +251,10 @@ ul li img {
   width: 150px;
   font-weight: bold;
   color: #526175;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .solicitar-conteiner h1 {
   color: #75BFAB;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .solicitar-conteiner select {
@@ -268,7 +267,8 @@ ul li img {
 
 .solicitar-conteiner input[type="text"],
 input[type="datetime-local"] {
-  width: 350px;
+  width: 380px;
+  margin-left: 25px;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -295,10 +295,15 @@ input[type="datetime-local"] {
 
 h1{ color: #263138;
   text-align: center;
+  text-size: 50px;
 }
 .profissional img{
   width: 250px;
   border-radius: 20px;
+}
+.profissionais h2{ 
+  color: #263138;
+  text-align: center;
 }
 /*SLAIDE INICIAL*/
 .imagem-inicial img{
