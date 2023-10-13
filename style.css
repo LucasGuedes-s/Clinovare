@@ -379,10 +379,11 @@ h3{
   color: #75BFAB;
 }
 
+/*Especializões*/
+
 .especializações{
     display: flex;
     justify-content: space-around;
-    background-color: red;
   }
   
   h1{ color: #68A897;
@@ -400,7 +401,7 @@ h3{
   
 .quadrado-espec {
     width: 300px;
-    height: 400px;
+    height: 320px;
     background-color: #EFF4F2;
     box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
     border: 2px solid #75BFAB;
