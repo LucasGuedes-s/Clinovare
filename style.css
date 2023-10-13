@@ -379,5 +379,65 @@ h3{
   color: #75BFAB;
 }
 
+.especializações{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+  }
+  
+  h1{ color: #68A897;
+    text-align: center;
+    font-size: 52px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 15px; 
+  }
+  
+  h3{
+    color: #526175;
+    margin-top: -12px;
+  }
+  
+.quadrado-espec {
+    width: 300px;
+    height: 400px;
+    background-color: #EFF4F2;
+    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
+    border: 2px solid #75BFAB;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado-espec img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quadrado h2,
+.quadrado-espec p {
+    margin: 10px 0;
+    color: #68A897;
+}
+
+.quadrado-espec button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #75BFAB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.quadrado-espec button:hover {
+    background-color: #5C8B7D;
+}
 
 
