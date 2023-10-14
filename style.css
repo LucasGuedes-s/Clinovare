@@ -286,6 +286,7 @@ h3 {
 }
 
 .profissional img {
+  max-width: 100%; 
   width: 250px;
   border-radius: 20px;
   border: 2px solid #68a897;
@@ -417,6 +418,7 @@ h3 {
   align-items: center;
 }
 .quadrado-espec img {
+  max-width: 100%; 
   width: 120px;
   height: auto;
   margin-bottom: -10;
@@ -451,7 +453,7 @@ h3 {
   }
 
   .profissional, .footer-section {
-    width: 100%; /* Ocupa toda a largura da tela */
+    width: 100%; 
     margin-bottom: 20px; /* Adiciona espaço entre as divs */
     overflow: hidden;
   }
