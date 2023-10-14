@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 ul {
   margin: 0;
@@ -13,7 +13,7 @@ ul {
 }
 
 .nav-bar {
-  background-color: #75BFAB;
+  background-color: #75bfab;
   color: #ffffff;
   width: 100%;
   margin: 0 auto; /* Centralizar a nave bar horizontalmente */
@@ -31,7 +31,7 @@ ul {
   left: 0;
   width: 100%;
   height: 4px; /* Espessura (altura) da linha */
-  background-color: #68A897;
+  background-color: #68a897;
 }
 
 .nav-bar ul {
@@ -56,12 +56,12 @@ ul {
   text-align: center;
   margin-top: 10px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nomes-links a {
   text-decoration: none;
-  color: #75BFAB;
+  color: #75bfab;
   margin: 0 20px;
   transition: color 0.3s;
 }
@@ -70,14 +70,13 @@ ul {
 }
 
 .footer {
-  background-color: #68A897;
+  background-color: #68a897;
   color: white;
   padding: 20px 0;
   height: 40%;
   bottom: 0;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -111,7 +110,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.whatsapp{
+.whatsapp {
   width: 23px;
   height: 23px;
   background-size: cover;
@@ -120,7 +119,7 @@ ul {
   margin-right: 8px;
 }
 
-.telefone{
+.telefone {
   width: 23px;
   height: 23px;
   background-size: cover;
@@ -129,7 +128,7 @@ ul {
   margin-right: 8px;
 }
 
-.email{
+.email {
   width: 23px;
   height: 23px;
   background-size: cover;
@@ -138,7 +137,7 @@ ul {
   margin-right: 8px;
 }
 
-.fecebook{
+.fecebook {
   width: 25px;
   height: 23px;
   background-size: cover;
@@ -147,7 +146,7 @@ ul {
   margin-right: 8px;
 }
 
-.instagram{
+.instagram {
   width: 23px;
   height: 23px;
   background-size: cover;
@@ -156,7 +155,7 @@ ul {
   margin-right: 8px;
 }
 
-.youtube{
+.youtube {
   width: 32px;
   height: 23px;
   background-size: cover;
@@ -165,7 +164,7 @@ ul {
   margin-right: 8px;
 }
 
-.icone-img{
+.icone-img {
   width: 23px;
   height: 20px;
   margin-right: 2px;
@@ -174,24 +173,24 @@ ul {
   margin-left: -5px;
 }
 .footer-section {
-    color: white; 
-    padding-right: 10%;
+  color: white;
+  padding-right: 10%;
 }
 .footer-section a {
-    color: white; 
-    text-decoration: none; 
-    font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 .footer-section ul {
-    list-style-type: none; 
+  list-style-type: none;
 }
 
 .footer-section ul li {
-    margin-left: 0; 
+  margin-left: 0;
 }
 ul li {
   list-style-type: none;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 /* Estilos para a imagem dentro dos elementos <li> */
@@ -200,11 +199,6 @@ ul li img {
   height: 16px;
   margin-right: 5px;
   vertical-align: middle;
-}
-
-/* Media Query para telas pequenas, como celulares */
-@media {
-  max-width: 768px;
 }
 
 /* Solicitar atendimento*/
@@ -221,7 +215,7 @@ ul li img {
   width: 40%;
   padding: 20px;
   border-radius: 5px;
-  border: 1px solid #75BFAB;
+  border: 1px solid #75bfab;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
   overflow: hidden; /* Adicionando overflow para conter o float */
@@ -239,7 +233,7 @@ ul li img {
 }
 
 .solicitar-conteiner h1 {
-  color: #75BFAB;
+  color: #75bfab;
 }
 
 .solicitar-conteiner select {
@@ -259,54 +253,46 @@ input[type="datetime-local"] {
   border: 1px solid #ccc;
   border-radius: 3px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .solicitar-conteiner button {
   display: block;
   width: 97%;
   margin-top: 10px;
   padding: 10px;
-  background-color: #75BFAB;
+  background-color: #75bfab;
   color: #ffffff;
   font-weight: bold;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
-.profissionais{
+.profissionais {
   display: flex;
   justify-content: space-around;
 }
 
-h1{ color: #68A897;
-  text-align: center;
-  font-size: 52px;
-  text-decoration: underline;
-  text-decoration-thickness: 1px; 
-  text-underline-offset: 15px; 
-}
-
-h3{
+h3 {
   color: #526175;
   margin-top: -12px;
 }
 
-.profissional img{
+.profissional img {
   width: 250px;
   border-radius: 20px;
-  border: 2px solid #68A897;
+  border: 2px solid #68a897;
 }
-.profissional{
-  color: #68A897;
+.profissional {
+  color: #68a897;
   width: 20%;
   text-align: center;
 }
-.profissionais h2{ 
-  color: #68A897;
+.profissionais h2 {
+  color: #68a897;
   text-align: center;
 }
 /*SLAIDE INICIAL*/
-.imagem-inicial img{
+.imagem-inicial img {
   margin-top: 10px;
   width: 100%;
 }
@@ -320,11 +306,11 @@ h3{
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border: 1px solid rgb(210, 206, 214);
   border-radius: 20px;
   width: 40%;
-  }
+}
 
 .login-input {
   margin-bottom: 10px;
@@ -358,7 +344,7 @@ h3{
   font-size: 18px;
   color: white;
   border: none;
-  background-color: #75BFAB;
+  background-color: #75bfab;
   width: 100%;
   transition: background-color 0.5s ease;
   align-self: center;
@@ -366,96 +352,85 @@ h3{
 
 .enviar-button:hover {
   cursor: pointer;
-  color: #68A897;
+  color: #68a897;
   box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
 }
 
 .link-cadastro a {
   text-decoration: none;
-  color: #68A897;
+  color: #68a897;
 }
 
 .link-cadastro a:hover {
-  color: #75BFAB;
+  color: #75bfab;
 }
 
 /*Especializões*/
 
-.especializações{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  h1{ color: #68A897;
-    text-align: center;
-    font-size: 52px;
-    text-decoration: underline;
-    text-decoration-thickness: 1px; 
-    text-underline-offset: 15px; 
-  }
-
-text.esp{
-   color: #red;
+.especializacoes {
+  display: flex;
+  justify-content: space-around;
 }
 
-h4{
-  color: #68A897;
+h1 {
+  color: #68a897;
+  text-align: center;
+  font-size: 52px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 15px;
+}
+
+text.esp {
+  color: #red;
+}
+
+h4 {
+  color: #68a897;
   font-size: 23px;
 }
-  
-  h3{
-    color: #526175;
-    margin-top: -12px;
-  }
-  
+
+h3 {
+  color: #526175;
+  margin-top: -12px;
+}
+
 .quadrado-espec {
-    width: 300px;
-    height: 330px;
-    background-color: #EFF4F2;
-    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
-    border: 2px solid #75BFAB;
-    border-radius: 20px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 330px;
+  background-color: #eff4f2;
+  box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
+  border: 2px solid #75bfab;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .quadrado-espec img {
-    width: 120px;
-    height: auto;
-    margin-bottom: -10;
+  width: 120px;
+  height: auto;
+  margin-bottom: -10;
 }
 
-
-
 .quadrado-espec button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #68A897;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #68a897;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .quadrado-espec button:hover {
-    background-color: #5C8B7D;
+  background-color: #5c8b7d;
 }
 
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-  .profissionais .profissional,
-  .especializações .quadrado-espec,
-  .footer .footer-section {
-    display: block; /* Faz cada div ficar uma abaixo da outra */
-    margin-bottom: 20px; /* Adiciona espaço entre as divs */
-  }
-}
 
 
 
