@@ -452,7 +452,7 @@ h3 {
     
   }
 
-  .profissional {
+  .profissional, .footer-section, .footer-section1 {
     width: 100%; 
     margin-bottom: 20px; /* Adiciona espaço entre as divs */
     overflow: hidden;
@@ -468,15 +468,7 @@ h3 {
     margin-bottom: 20px;
     overflow: hidden;
   }
-  .footer-section, .footer-section1{
-    width: 100%; 
-    margin-bottom: 20px; /* Adiciona espaço entre as divs */
-    overflow: hidden;
-  }
-  .footer {
-    display: flex;
-    flex-direction: column; /* Empilhar elementos verticalmente */
-  }
+
 }
 
 
