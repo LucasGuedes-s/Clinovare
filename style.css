@@ -174,20 +174,20 @@ ul {
   filter: invert(1);
   margin-left: -5px;
 }
-.footer-section {
+.footer-section, .footer-section1 {
   color: white;
   padding-right: 10%;
 }
-.footer-section a {
+.footer-section, .footer-section1 a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-.footer-section ul {
+.footer-section, .footer-section1 ul {
   list-style-type: none;
 }
 
-.footer-section ul li {
+.footer-section, .footer-section1 ul li {
   margin-left: 0;
 }
 ul li {
@@ -452,7 +452,7 @@ h3 {
     
   }
 
-  .profissional, .footer-section {
+  .profissional {
     width: 100%; 
     margin-bottom: 20px; /* Adiciona espaço entre as divs */
     overflow: hidden;
@@ -467,6 +467,15 @@ h3 {
     width: 100%;
     margin-bottom: 20px;
     overflow: hidden;
+  }
+  .footer-section, .footer-section1{
+    width: 100%; 
+    margin-bottom: 20px; /* Adiciona espaço entre as divs */
+    overflow: hidden;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column; /* Empilhar elementos verticalmente */
   }
 }
 
