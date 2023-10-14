@@ -202,6 +202,7 @@ ul li img {
   margin-right: 5px;
   vertical-align: middle;
 }
+
 /* Media Query para telas pequenas, como celulares */
 @media {
   max-width: 768px;
