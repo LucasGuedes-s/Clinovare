@@ -38,7 +38,6 @@ ul {
   list-style-type: none;
   text-align: center; /* Centralizar os itens */
   padding: 10px 0;
-  /* border-bottom: 2px solid #ff0000; */
   flex-direction: column; /* Linha na parte inferior */
 }
 
@@ -448,6 +447,15 @@ h4{
 }
 
 
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .profissionais .profissional,
+  .especializações .quadrado-espec,
+  .footer .footer-section {
+    display: block; /* Faz cada div ficar uma abaixo da outra */
+    margin-bottom: 20px; /* Adiciona espaço entre as divs */
+  }
+}
 
 
 
