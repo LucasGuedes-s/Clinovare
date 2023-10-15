@@ -276,8 +276,10 @@ input[type="datetime-local"] {
   justify-content: space-around;
 }
 .texto h3{
+  padding: 20px;
+  color: #75bfab;
   margin: auto 60px;
-  width: 90%;
+  width: 70%;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
@@ -285,7 +287,7 @@ input[type="datetime-local"] {
   display: flex;
 }
 .texto img{
-  max-width: 80%;
+  max-width: 100%;
   float: right;
   height: auto;
   margin: auto 60px;
