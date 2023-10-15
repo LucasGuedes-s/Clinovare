@@ -327,7 +327,7 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-family: "Montserrat", sans-serif;
   border: 1px solid rgb(210, 206, 214);
   border-radius: 20px;
@@ -335,7 +335,7 @@ h3 {
 }
 
 .login-container input {
-  margin-bottom: 10px;
+  margin-bottom:15px;
   font-size: 18px;
   padding: 5px;
   width: 100%;
@@ -343,8 +343,9 @@ h3 {
   border-radius: 2px;
 }
 
-.login-conteiner select {
-  width: 400px;
+.login-container select {
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
   padding: 10px;
   border: 1px solid #cccccc;
   border-radius: 3px;
