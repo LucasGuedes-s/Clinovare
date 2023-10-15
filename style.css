@@ -334,15 +334,12 @@ h3 {
   width: 40%;
 }
 
-.login-input {
+.login-container input {
   margin-bottom: 10px;
   font-size: 18px;
   padding: 5px;
   width: 100%;
-}
-
-.login-input:focus {
-  box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
+  border-radius: 2px;
 }
 
 #identificador {
