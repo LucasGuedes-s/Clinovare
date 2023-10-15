@@ -276,8 +276,19 @@ input[type="datetime-local"] {
   justify-content: space-around;
 }
 .texto h3{
-  margin-left: 60px;
-  width: 50%;
+  margin: auto 60px;
+  width: 90%;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+.texto{
+  display: flex;
+}
+.texto img{
+  max-width: 80%;
+  float: right;
+  height: auto;
+  margin: auto 60px;
 }
 
 h3 {
