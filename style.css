@@ -331,20 +331,21 @@ h3 {
   font-family: "Montserrat", sans-serif;
   border: 1px solid rgb(210, 206, 214);
   border-radius: 20px;
-  width: 40%;
+  width: 35%;
 }
 
 .login-container input {
-  margin-bottom:15px;
+  margin-bottom: 15px;
   font-size: 18px;
   padding: 5px;
   width: 100%;
   border: 1px solid lightgray;
   border-radius: 2px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .login-container select {
-  width: 300px;
+  width: 250px;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
   border: 1px solid #cccccc;
@@ -377,7 +378,6 @@ h3 {
   border: none;
   background-color: #75bfab;
   width: 100%;
-  transition: background-color 0.5s ease;
   align-self: center;
 }
 

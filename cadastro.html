@@ -33,7 +33,7 @@
       </div>
 
       <form>
-        <section>
+        <label>Nome: </label><section>
           <input
             type="text"
             name="nome"
@@ -43,7 +43,7 @@
           />
         </section>
         <section>
-          <input
+          <label>Sobrenome: </label><input
             type="text"
             name="sobrenome"
             class="login-input"
@@ -53,7 +53,7 @@
         </section>
 
         <section>
-        <label for="genero">Gênero</label>
+        <label for="genero">Gênero: </label>
           <select id="genero" name="genero" required>
             <option value="masculino">Masculino</option>
             <option value="feminino">Feminino</option>
@@ -62,7 +62,7 @@
           </select>
         </section>
         <section>
-          <label for="dataNascimento">Data de Nascimento</label>
+          <label for="dataNascimento">Data de Nascimento: </label>
           <input
             type="date"
             id="dataNascimento"
@@ -71,17 +71,17 @@
           />
         </section>
         <section>
-          <section>
-            <input
+        <section>
+            <label>Telefone: </label><input
               type="tel"
               pattern="/d*"
               name="telefone"
               id="telefone-cadastro"
               required
             />
-          </section>
+        </section>
           <section>
-            <input
+            <label>CPF: </label><input
               type="text"
               pattern="/d*"
               name="cpf"
@@ -90,15 +90,11 @@
               required
             />
           </section>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            required
-          />
+          <section>
+            <label>E-mail: </label><input type="email" name="email" id="email" required/>
         </section>
         <section>
-          <input
+          <label>Senha: </label><input
             type="password"
             name="senha"
             id="digitar-senha"
@@ -106,7 +102,7 @@
           />
         </section>
         <section>
-          <input
+          <label>Confirmar: </label><input
             type="password"
             name="confirmarSenha"
             id="confirmar-senha"
