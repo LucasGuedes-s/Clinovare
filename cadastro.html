@@ -33,7 +33,7 @@
       </div>
 
       <form>
-        <div>
+        <section>
           <input
             type="text"
             name="nome"
@@ -42,8 +42,8 @@
             placeholder="Nome"
             required
           />
-        </div>
-        <div>
+        </section>
+        <section>
           <input
             type="text"
             name="sobrenome"
@@ -52,7 +52,7 @@
             placeholder="Sobrenome"
             required
           />
-        </div>
+        </section>
 
         <label for="genero">Gênero</label>
         <select id="genero" name="genero" required>
@@ -61,7 +61,7 @@
           <option value="outro">Outro</option>
           <option value="naoinformado">Prefiro não informar</option>
         </select>
-        <div>
+        <section>
           <label for="dataNascimento">Data de Nascimento</label>
           <input
             type="date"
@@ -70,9 +70,9 @@
             name="dataNascimento"
             required
           />
-        </div>
-        <div>
-          <div>
+        </section>
+        <section>
+          <section>
             <input
               type="tel"
               pattern="/d*"
@@ -83,8 +83,8 @@
               placeholder="Telefone"
               required
             />
-          </div>
-          <div>
+          </section>
+          <section>
             <input
               type="text"
               pattern="/d*"
@@ -95,7 +95,7 @@
               placeholder="CPF"
               required
             />
-          </div>
+          </section>
           <input
             type="email"
             name="email"
@@ -104,8 +104,8 @@
             placeholder="E-mail"
             required
           />
-        </div>
-        <div>
+        </section>
+        <section>
           <input
             type="password"
             name="senha"
@@ -114,8 +114,8 @@
             placeholder="Senha"
             required
           />
-        </div>
-        <div>
+        </section>
+        <section>
           <input
             type="password"
             name="confirmarSenha"
@@ -124,10 +124,11 @@
             placeholder="Confirmar"
             required
           />
-        </div>
-        <button type="submit" id="cadastro-button" class="enviar-button">
-          Cadastre-se
-        </button>
+        </section>
+        <section>
+          <button type="submit" id="cadastro-button" class="enviar-button">Cadastre-se
+          </button>
+        </section>
       </form>
 
       <div class="link-cadastro">
