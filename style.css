@@ -343,6 +343,16 @@ h3 {
   border-radius: 2px;
 }
 
+.login-conteiner select {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
 #identificador {
   background-image: url("https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/user.svg?v=1696384230548");
   background-size: 20px;
