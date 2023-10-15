@@ -339,6 +339,7 @@ h3 {
   font-size: 18px;
   padding: 5px;
   width: 100%;
+  border: 1px solid lightgray;
   border-radius: 2px;
 }
 
@@ -356,7 +357,7 @@ h3 {
   background-position: right 10px center;
 }
 
-.enviar-button {
+.login-container button {
   margin-bottom: 10px;
   margin-left: 4px;
   padding: 5px;
@@ -369,10 +370,8 @@ h3 {
   align-self: center;
 }
 
-.enviar-button:hover {
+.login-container button:hover {
   cursor: pointer;
-  color: #68a897;
-  box-shadow: 0 0 5px rgba(16, 83, 117, 0.7);
 }
 
 .link-cadastro a {
