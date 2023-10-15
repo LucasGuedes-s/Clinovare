@@ -33,85 +33,50 @@
       </div>
 
       <form>
-        <label>Nome: </label><section>
-          <input
-            type="text"
-            name="nome"
-            class="login-input"
-            id="nome-cadastro"
-            required
-          />
-        </section>
         <section>
-          <label>Sobrenome: </label><input
-            type="text"
-            name="sobrenome"
-            class="login-input"
-            id="sobrenome-cadastro"
-            required
-          />
+          <label>Nome: </label><input type="text" name="nome" class="login-input" id="nome-cadastro" required/>
+        </section>
+        
+        <section>
+          <label>Sobrenome: </label><input type="text" name="sobrenome" class="login-input" id="sobrenome-cadastro" required/>
         </section>
 
         <section>
-        <label for="genero">Gênero: </label>
-          <select id="genero" name="genero" required>
+          <label for="genero">Gênero: </label>
+            <select id="genero" name="genero" required>
             <option value="masculino">Masculino</option>
             <option value="feminino">Feminino</option>
             <option value="outro">Outro</option>
             <option value="naoinformado">Prefiro não informar</option>
           </select>
         </section>
+        
         <section>
-          <label for="dataNascimento">Data de Nascimento: </label>
-          <input
-            type="date"
-            id="dataNascimento"
-            name="dataNascimento"
-            required
-          />
+          <label for="dataNascimento">Data de Nascimento: </label><input type="date" id="dataNascimento" name="dataNascimento" required/>
         </section>
+        
         <section>
-        <section>
-            <label>Telefone: </label><input
-              type="tel"
-              pattern="/d*"
-              name="telefone"
-              id="telefone-cadastro"
-              required
-            />
+            <label>Telefone: </label><input type="tel" pattern="/d*" name="telefone" id="telefone-cadastro" required/>
         </section>
-          <section>
-            <label>CPF: </label><input
-              type="text"
-              pattern="/d*"
-              name="cpf"
-              id="cpf-cadastro"
-              title="Por favor, insira apenas números"
-              required
-            />
-          </section>
-          <section>
-            <label>E-mail: </label><input type="email" name="email" id="email" required/>
-        </section>
+        
         <section>
-          <label>Senha: </label><input
-            type="password"
-            name="senha"
-            id="digitar-senha"
-            required
-          />
+          <label>CPF: </label><input type="text" pattern="/d*" name="cpf" id="cpf-cadastro" title="Por favor, insira apenas números" required/>
         </section>
+        
         <section>
-          <label>Confirmar: </label><input
-            type="password"
-            name="confirmarSenha"
-            id="confirmar-senha"
-            required
-          />
+          <label>E-mail: </label><input type="email" name="email" id="email" required/>
         </section>
+        
         <section>
-          <button type="submit" id="cadastro-button">Cadastre-se
-          </button>
+          <label>Senha: </label><input type="password" name="senha" id="digitar-senha" required/>
+        </section>
+        
+        <section>
+          <label>Confirmar: </label><input type="password" name="confirmarSenha" id="confirmar-senha" required/>
+        </section>
+        
+        <section>
+          <button type="submit" id="cadastro-button">Cadastre-se</button>
         </section>
       </form>
 

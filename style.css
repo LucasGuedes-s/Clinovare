@@ -334,6 +334,8 @@ h3 {
   width: 35%;
 }
 
+.login-container 
+
 .login-container input {
   margin-bottom: 15px;
   font-size: 18px;
@@ -344,14 +346,22 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+.login-container section {
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
 .login-container select {
-  width: 250px;
+  width: 300px;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
   border: 1px solid #cccccc;
   border-radius: 3px;
-  margin-bottom: 20px;
-  margin-left: 30px;
   font-size: 14px;
 }
 
