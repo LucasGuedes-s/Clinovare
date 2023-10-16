@@ -127,18 +127,6 @@ ul {
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   background-color: #68a897;
   color: white;
@@ -274,14 +262,14 @@ ul li img {
 
 /* Solicitar atendimento*/
 .img-solicitar img {
-  max-width: 40%;
+  max-width: 100%;
   float: right;
   height: auto;
-  margin-top: 80px;
-  margin-right: 50px;
+  margin-top: 20px;
+  margin-right: 0px;
 }
 .solicitar-conteiner {
-  margin: 70px;
+  margin: 20px;
   float: left;
   width: 40%;
   padding: 20px;
@@ -340,6 +328,28 @@ input[type="datetime-local"] {
   border-radius: 4px;
   cursor: pointer;
 }
+/* Media query para estilos específicos de telas menores */
+@media screen and (max-width: 600px) {
+  .solicitar-conteiner {
+    margin: 10px;
+  }
+
+  .solicitar-conteiner label {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .solicitar-conteiner select,
+  .solicitar-conteiner input[type="text"],
+  .solicitar-conteiner input[type="datetime-local"] {
+    width: 100%;
+  }
+}
+
+
+
+
+
 .profissionais {
   display: flex;
   justify-content: space-around;
@@ -470,6 +480,20 @@ h3 {
 
 .link-cadastro a:hover {
   color: #75bfab;
+}
+/* Media query para estilos específicos de telas menores */
+@media screen and (max-width: 600px) {
+  .login-container {
+    width: 90%; /* Redefine a largura para 90% para telas menores */
+  }
+
+  .login-container input {
+    width: 100%;
+  }
+
+  .login-container select {
+    width: 100%;
+  }
 }
 
 /*Especializões*/
