@@ -83,7 +83,7 @@ ul {
 
 /* Mudar a cor do link "Serviços" quando o mouse passa por cima */
 .services-link:hover {
-  color: #333;
+  color: #333333;
 }
 .dropdown {
   position: relative;
@@ -111,7 +111,7 @@ ul {
 
 /* Estilo para os links dentro do dropdown */
 .dropdown-content a {
-  color: #333;
+  color: #333333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
