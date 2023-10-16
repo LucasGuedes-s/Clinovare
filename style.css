@@ -582,6 +582,22 @@ h3 {
 .quadrado-espec button:hover {
   background-color: #5c8b7d;
 }
+/* Media query para telas menores (celulares) */
+@media screen and (max-width: 600px) {
+  .especializacoes {
+    flex-direction: column; /* Empilhar as especializações verticalmente */
+    align-items: center; /* Centralizar o conteúdo */
+    margin: 10px;
+  }
+
+  .quadrado-espec {
+    flex: 0 0 100%; /* Largura total para ocupar a tela */
+    margin: 10px 0;
+  }
+   h1 {
+    font-size: 45px; /* Defina o tamanho de fonte menor para "Especializações" */
+  }
+}
 
 
 /* Estilos para dispositivos móveis */
