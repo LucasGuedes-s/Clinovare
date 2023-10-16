@@ -607,8 +607,8 @@ h3 {
   }
 }
 
-/* Media query para estilos específicos de telas menores(celular) (AREA SOLICITAR)*/
-@media screen and (max-width: 600px) {
+/* Media query para estilos específicos de telas menores (celulares e tablets) (AREA SOLICITAR) */
+@media screen and (max-width: 1024px) {
   .img-solicitar img {
     max-width: 100%;
     float: none;
@@ -640,18 +640,20 @@ h3 {
     border-radius: 3px;
     margin-bottom: 10px;
   }
+
   .solicitar-conteiner form {
     padding: 5px;
   }
+
   .solicitar-conteiner h1 {
     font-size: 45px;
   }
 }
 
-/* Media query para estilos específicos de telas menores de (LOGIN/CADRASTRO)*/
-@media screen and (max-width: 600px) {
+/* Media query para estilos específicos de telas menores (celulares e tablets) (LOGIN/CADASTRO) */
+@media screen and (max-width: 1024px) {
   .login-container {
-    width: 80%; /* Redefine a largura para 90% para telas menores */
+    width: 80%; /* Redefine a largura para 80% para telas menores (incluindo tablets) */
   }
 
   .login-container input {
@@ -662,6 +664,7 @@ h3 {
     width: 100%;
   }
 }
+
 
 /* Media query para telas menores (celulares) (AREA ESPECIALIZAÇÕES) */
 @media screen and (max-width: 600px) {
