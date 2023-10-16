@@ -262,14 +262,14 @@ ul li img {
 
 /* Solicitar atendimento*/
 .img-solicitar img {
-  max-width: 100%;
+  max-width: 40%;
   float: right;
   height: auto;
-  margin-top: 20px;
-  margin-right: 0px;
+  margin-top: 80px;
+  margin-right: 50px;
 }
 .solicitar-conteiner {
-  margin: 20px;
+  margin: 70px;
   float: left;
   width: 40%;
   padding: 20px;
@@ -330,13 +330,24 @@ input[type="datetime-local"] {
 }
 /* Media query para estilos específicos de telas menores */
 @media screen and (max-width: 600px) {
+  .img-solicitar img {
+    max-width: 100%;
+    float: none;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
   .solicitar-conteiner {
-    margin: 10px;
+    margin: 20px;
+    float: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .solicitar-conteiner label {
     width: 100%;
-    font-size: 16px;
+    margin-bottom: 5px;
   }
 
   .solicitar-conteiner select,
@@ -345,7 +356,6 @@ input[type="datetime-local"] {
     width: 100%;
   }
 }
-
 
 
 
