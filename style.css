@@ -73,7 +73,7 @@ ul {
 /* Estilização específica para o link "Serviços" */
 .services-link {
   text-decoration: none;
-  color: #68A897;
+  color: #68a897;
   margin: 0 20px;
   transition: color 0.3s;
   background-color: transparent; /* Remove o fundo */
@@ -105,7 +105,7 @@ ul {
   position: absolute;
   background-color: #f9f9f9; /* Cor de fundo do dropdown */
   min-width: 160px; /* Largura mínima do dropdown */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -231,64 +231,30 @@ ul {
   filter: invert(1);
   margin-left: -5px;
 }
-.footer-section, .footer-section1 {
+.footer-section,
+.footer-section1 {
   color: white;
   padding-right: 10%;
 }
-.footer-section, .footer-section1 a {
+.footer-section,
+.footer-section1 a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-.footer-section, .footer-section1 ul {
+.footer-section,
+.footer-section1 ul {
   list-style-type: none;
 }
 
-.footer-section, .footer-section1 ul li {
+.footer-section,
+.footer-section1 ul li {
   margin-left: 0;
 }
 ul li {
   list-style-type: none;
   margin-bottom: 10px;
 }
-/* Estilos para telas menores (celulares) */
-@media screen and (max-width: 600px) {
-  .footer {
-    text-align: center; /* Centralizar o conteúdo */
-    height: auto; /* Remover a altura fixa */
-  }
-
-  .container {
-    flex-direction: column; /* Empilhar os elementos verticalmente */
-  }
-
-  .footer h2 {
-    font-size: 30px; /* Reduzir o tamanho da fonte para o título */
-  }
-
-  .footer p {
-    font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
-  }
-
-  .footer ul li {
-    margin-bottom: 5px; /* Reduzir a margem inferior dos itens da lista */
-  }
-  /* Alinhar os nomes abaixo de "Links Úteis" verticalmente */
-  .footer-section1 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-section1 ul li {
-    margin: 5px 0; /* Espaçamento entre os nomes */
-  }
-}
-
-
-
-
-
 
 /* Estilos para a imagem dentro dos elementos <li> */
 ul li img {
@@ -346,7 +312,7 @@ ul li img {
 .solicitar-conteiner input[type="text"],
 input[type="datetime-local"] {
   width: 380px;
-  margin-left:35px;
+  margin-left: 35px;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -366,53 +332,12 @@ input[type="datetime-local"] {
   border-radius: 4px;
   cursor: pointer;
 }
-/* Media query para estilos específicos de telas menores */
-@media screen and (max-width: 600px) {
-  .img-solicitar img {
-    max-width: 100%;
-    float: none;
-    margin-top: 20px;
-    margin-right: 0;
-  }
-
-  .solicitar-conteiner {
-    margin: 10px;
-    float: none;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-  }
-
-  .solicitar-conteiner label {
-    width: 30%;
-    font-size: 14px
-    margin-bottom: 5px;
-  }
-
-  .solicitar-conteiner select,
-  .solicitar-conteiner input[type="text"],
-  .solicitar-conteiner input[type="datetime-local"] {
-    width: 80%;
-    font-size: 12px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 10px;
-  }
-  .solicitar-conteiner form{
-    padding: 5px;
-  }
-  .solicitar-conteiner h1{
-    font-size: 45px;
-  }
-}
 
 .profissionais {
   display: flex;
   justify-content: space-around;
 }
-.texto h3{
+.texto h3 {
   padding: 20px;
   color: #75bfab;
   margin: auto 60px;
@@ -420,10 +345,10 @@ input[type="datetime-local"] {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
-.texto{
+.texto {
   display: flex;
 }
-.texto img{
+.texto img {
   max-width: 100%;
   float: right;
   height: auto;
@@ -436,7 +361,7 @@ h3 {
 }
 
 .profissional img {
-  max-width: 100%; 
+  max-width: 100%;
   width: 250px;
   border-radius: 20px;
   border: 2px solid #68a897;
@@ -449,35 +374,6 @@ h3 {
 .profissionais h2 {
   color: #68a897;
   text-align: center;
-}
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-  .profissionais, .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    
-  }
-
-  .profissional, .footer-section, .footer-section1 {
-    width: 100%; 
-    margin-bottom: 20px; /* Adiciona espaço entre as divs */
-    overflow: hidden;
-  }
-
-  .especializacoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-   .quadrado-espec {
-    width: 90%;
-    margin-bottom: 20px;
-    overflow: hidden;
-  }
-
 }
 
 /*SLAIDE INICIAL*/
@@ -569,20 +465,6 @@ h3 {
 .link-cadastro a:hover {
   color: #75bfab;
 }
-/* Media query para estilos específicos de telas menores de login/cadrastro*/
-@media screen and (max-width: 600px) {
-  .login-container {
-    width: 80%; /* Redefine a largura para 90% para telas menores */
-  }
-
-  .login-container input {
-    width: 100%;
-  }
-
-  .login-container select {
-    width: 100%;
-  }
-}
 
 /*Especializões*/
 
@@ -628,7 +510,7 @@ h3 {
   align-items: center;
 }
 .quadrado-espec img {
-  max-width: 100%; 
+  max-width: 100%;
   width: 120px;
   height: auto;
   margin-bottom: -10;
@@ -651,6 +533,37 @@ h3 {
   background-color: #5c8b7d;
 }
 
+/* Estilos para o botão flutuante */
+.btn-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #75bfab;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.btn-top img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  filter: invert(1);
+  /*margin-top: -6px; /* Mova a imagem 5 pixels para baixo */
+  /*margin-left: -5px; /* Afasta a imagem 5 pixels para a esquerda */
+}
+
+.btn-top:hover {
+  background-color: #68a897;
+}
 
 
 
@@ -658,11 +571,114 @@ h3 {
 
 
 
-/* RESPONSIVIDADE PARA CELULARES *//* RESPONSIVIDADE PARA CELULARES */
-/* RESPONSIVIDADE PARA CELULARES *//* RESPONSIVIDADE PARA CELULARES */
-/* RESPONSIVIDADE PARA CELULARES *//* RESPONSIVIDADE PARA CELULARES */
-/* RESPONSIVIDADE PARA CELULARES *//* RESPONSIVIDADE PARA CELULARES */
 
+/* RESPONSIVIDADE PARA CELULARES */ /* RESPONSIVIDADE PARA CELULARES */
+/* RESPONSIVIDADE PARA CELULARES */ /* RESPONSIVIDADE PARA CELULARES */
+/* RESPONSIVIDADE PARA CELULARES */ /* RESPONSIVIDADE PARA CELULARES */
+/* RESPONSIVIDADE PARA CELULARES */ /* RESPONSIVIDADE PARA CELULARES */
+
+/* Estilos para dispositivos móveis (ARAE PROFISSIONAIS E ESPECIALIZAÇÕES)*/
+@media (max-width: 768px) {
+  .profissionais,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .profissional,
+  .footer-section,
+  .footer-section1 {
+    width: 100%;
+    margin-bottom: 20px; /* Adiciona espaço entre as divs */
+    overflow: hidden;
+  }
+
+  .especializacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quadrado-espec {
+    width: 90%;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+}
+
+/* Media query para estilos específicos de telas menores(celular) (AREA SOLICITAR)*/
+@media screen and (max-width: 600px) {
+  .img-solicitar img {
+    max-width: 100%;
+    float: none;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .solicitar-conteiner {
+    margin: 10px;
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .solicitar-conteiner label {
+    width: 30%;
+    margin-bottom: 5px;
+  }
+
+  .solicitar-conteiner select,
+  .solicitar-conteiner input[type="text"],
+  .solicitar-conteiner input[type="datetime-local"] {
+    width: 80%;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .solicitar-conteiner form {
+    padding: 5px;
+  }
+  .solicitar-conteiner h1 {
+    font-size: 45px;
+  }
+}
+
+/* Media query para estilos específicos de telas menores de (LOGIN/CADRASTRO)*/
+@media screen and (max-width: 600px) {
+  .login-container {
+    width: 80%; /* Redefine a largura para 90% para telas menores */
+  }
+
+  .login-container input {
+    width: 100%;
+  }
+
+  .login-container select {
+    width: 100%;
+  }
+}
+
+/* Media query para telas menores (celulares) (AREA ESPECIALIZAÇÕES) */
+@media screen and (max-width: 600px) {
+  .especializacoes {
+    flex-direction: column; /* Empilhar as especializações verticalmente */
+    align-items: center; /* Centralizar o conteúdo */
+    margin: 10px;
+  }
+
+  .quadrado-espec {
+    flex: 0 0 100%; /* Largura total para ocupar a tela */
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 45px; /* Defina o tamanho de fonte menor para "Especializações" */
+  }
+}
 
 /* Estilos para telas menores (celulares) (AREA DO FOOTER) /* Estilos para telas menores (celulares) */
 @media screen and (max-width: 600px) {
@@ -696,84 +712,4 @@ h3 {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-}*/
-@media screen and (max-width: 600px) {
-  .footer {
-    text-align: center; /* Centralizar o conteúdo */
-    height: auto; /* Remover a altura fixa */
-  }
-
-  .container {
-    flex-direction: column; /* Empilhar os elementos verticalmente */
-  }
-
-  .footer h2 {
-    font-size: 30px; /* Reduzir o tamanho da fonte para o título */
-  }
-
-  .footer p {
-    font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
-  }
-
-  .footer ul li {
-    margin-bottom: 5px; /* Reduzir a margem inferior dos itens da lista */
-  }
-  /* Alinhar os nomes abaixo de "Links Úteis" verticalmente */
-  .footer-section1 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-section1 ul li {
-    margin: 5px 0; /* Espaçamento entre os nomes */
-  }
-}
-/* Media query para telas menores (celulares) */
-@media screen and (max-width: 600px) {
-  .especializacoes {
-    flex-direction: column; /* Empilhar as especializações verticalmente */
-    align-items: center; /* Centralizar o conteúdo */
-    margin: 10px;
-  }
-
-  .quadrado-espec {
-    flex: 0 0 100%; /* Largura total para ocupar a tela */
-    margin: 10px 0;
-  }
-   h1 {
-    font-size: 45px; /* Defina o tamanho de fonte menor para "Especializações" */
-  }
-}
-/* Estilos para o botão flutuante */
-.btn-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #75BFAB;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  font-size: 24px;
-  cursor: pointer;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
- 
-}
-
-.btn-top img {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  filter: invert(1);
-  /*margin-top: -6px; /* Mova a imagem 5 pixels para baixo */
-  /*margin-left: -5px; /* Afasta a imagem 5 pixels para a esquerda */
-}
-
-.btn-top:hover {
-  background-color: #68A897;
 }
