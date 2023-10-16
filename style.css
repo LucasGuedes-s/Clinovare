@@ -70,6 +70,75 @@ ul {
   color: #526175;
 }
 
+/* Estilização específica para o link "Serviços" */
+.services-link {
+  text-decoration: none;
+  color: #68A897;
+  margin: 0 20px;
+  transition: color 0.3s;
+  background-color: transparent; /* Remove o fundo */
+  border: none; /* Remove a borda */
+  cursor: pointer;
+}
+
+/* Mudar a cor do link "Serviços" quando o mouse passa por cima */
+.services-link:hover {
+  color: #333;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo para o botão que ativa o dropdown */
+.dropbtn {
+  background-color: #ffffff; /* Cor de fundo do botão */
+  color: #333; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o conteúdo do dropdown (a lista de opções) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9; /* Cor de fundo do dropdown */
+  min-width: 160px; /* Largura mínima do dropdown */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Estilo para os links dentro do dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mudar a cor dos links quando o mouse passa por cima */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Mostrar o dropdown quando o botão é clicado/hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   background-color: #68a897;
   color: white;

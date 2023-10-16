@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro - Clínica</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
   </head>
   <body>
     <!--navbar-->
@@ -18,7 +21,13 @@
       <div class="nomes-links">
         <a href="index.html">Clínica</a>
         <a href="#">Especialidades</a>
-        <a href="#">Serviços</a>
+        <div class="dropdown">
+          <a href="#">Serviços</a>
+          <div class="dropdown-content">
+            <a href="Solicitar.html"> Solicitar Atendimento</a>
+            <a href="SolicitarVacinas.html"> Solicitar Vacina</a>
+          </div>
+        </div>
         <a href="#">Contato</a>
         <a href="login.html">Login/Cadastro</a>
       </div>
@@ -43,7 +52,7 @@
         <section>
           <label>CPF ou RG: </label><input type="text" name="identificador" />
         </section>
-        
+
         <section>
           <label>Tipo de vacina </label>
           <select>
@@ -58,20 +67,21 @@
             <option>Hepatite B</option>
           </select>
         </section>
-        
+
         <section>
           <label>Data requerida: </label
           ><input type="datetime-local" name="identificador" />
         </section>
         <section>
-          <label>Notas:  </label
-          ><input type="text" name="identificador" />
+          <label>Notas: </label><input type="text" name="identificador" />
         </section>
         <button class="enviar-button">Enviar</button>
       </form>
     </div>
     <section class="img-solicitar">
-      <img src="https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/mulher.png?v=1697156107095">
+      <img
+        src="https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/mulher.png?v=1697156107095"
+      />
     </section>
   </body>
 </html>
