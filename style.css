@@ -23,6 +23,8 @@ ul {
 }
 .nav-bar img{
   position: absolute;
+  width: 390px;
+  margin-top: 10px;
 }
 .nav-bar ul {
   list-style-type: none;
@@ -330,17 +332,17 @@ input[type="datetime-local"] {
 }
 .texto h3 {
   padding: 20px;
-  color: #75bfab;
+  text-align: justify;
   margin: auto 60px;
   width: 70%;
-  font-size: 14px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
 .texto {
   display: flex;
 }
 .texto img {
-  max-width: 100%;
+  max-width: 150%;
   float: right;
   height: auto;
   margin: auto 60px;
