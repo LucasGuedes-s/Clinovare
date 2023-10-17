@@ -62,39 +62,16 @@ h3 {
   color: #68A897;
 }
 
-.services-link {
-  text-decoration: none;
-  color: #68a897;
-  margin: 0px 20px;
-  cursor: pointer;
-}
-
-/* Mudar a cor do link "Serviços" quando o mouse passa por cima */
-.services-link:hover {
-  color: #333333;
-}
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Estilo para o botão que ativa o dropdown */
-.dropbtn {
-  background-color: #ffffff; /* Cor de fundo do botão */
-  color: #333; /* Cor do texto do botão */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Estilo para o conteúdo do dropdown (a lista de opções) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9; /* Cor de fundo do dropdown */
-  min-width: 160px; /* Largura mínima do dropdown */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 /* Estilo para os links dentro do dropdown */
@@ -105,12 +82,11 @@ h3 {
   display: block;
 }
 
-/* Mudar a cor dos links quando o mouse passa por cima */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #EFF4F2;
 }
 
-/* Mostrar o dropdown quando o botão é clicado/hovered */
+/* Mostrar o dropdown quando o mouse passa por cima*/
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -122,7 +98,6 @@ h3 {
   height: 60%;
   bottom: 0;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
 
