@@ -20,60 +20,36 @@ ul li img {
   vertical-align: middle;
 }
 
-h4 {
-  color: #68a897;
-  font-size: 23px;
-}
-
 h3 {
   color: #526175;
-  margin-top: -12px;
-}
-
-.logo-text {
-  font-size: 50px;
-  margin: 10px;
 }
 
 .nav-bar {
   background-color: #75bfab;
   color: #ffffff;
   width: 100%;
-  margin: 0 auto; /* Centralizar a nave bar horizontalmente */
-  height: 140px; /* Espessura (altura) da nave bar */
+  margin: 0 auto; 
+  height: 140px;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 .nav-bar img{
   position: absolute;
   width: 390px;
   margin-top: 10px;
 }
-.nav-bar ul {
-  list-style-type: none;
-  text-align: center; /* Centralizar os itens */
-  padding: 10px 0;
-  flex-direction: column; /* Linha na parte inferior */
-}
-
-.nav-bar li {
-  margin: 0;
-  padding: 10px 20px; /* Espaçamento entre os itens e abaixo da linha */
-}
 
 .nav-bar a {
-  text-decoration: none; /* Remover sublinhado dos links */
+  text-decoration: none;
   color: #0074cc;
   display: block;
 }
 
-
-/* Estilos para os nomes/link fora da nave bar */
 .nomes-links {
   text-align: center;
   margin-top: 10px;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nomes-links a {
@@ -81,20 +57,15 @@ h3 {
   color: #75bfab;
   font-size: 24px;
   margin: 0 20px;
-  transition: color 0.3s;
 }
 .nomes-links a:hover {
-  color: #526175;
+  color: #68A897;
 }
 
-/* Estilização específica para o link "Serviços" */
 .services-link {
   text-decoration: none;
   color: #68a897;
-  margin: 0 20px;
-  transition: color 0.3s;
-  background-color: transparent; /* Remove o fundo */
-  border: none; /* Remove a borda */
+  margin: 0px 20px;
   cursor: pointer;
 }
 
