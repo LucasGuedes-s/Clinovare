@@ -90,6 +90,7 @@ h3 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/*DAQUI*/
 
 .footer {
   background-color: #68a897;
@@ -103,11 +104,9 @@ h3 {
 
 .container {
   display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: flex-start;
+  margin: 0 70px;
   padding: 0 20px;
-  flex-grow: 1;
 }
 .footer h2 {
   font-size: 24px;
@@ -119,7 +118,7 @@ h3 {
 }
 
 .footer a {
-  color: white;
+  color: #EFF4F2;
   text-decoration: none;
 }
 
