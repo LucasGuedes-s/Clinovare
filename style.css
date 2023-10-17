@@ -90,128 +90,11 @@ h3 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*DAQUI*/
+/*ima*/
 
-.footer {
-  background-color: #68a897;
-  color: white;
-  padding: 20px 0;
-  height: 60%;
-  bottom: 0;
+.imagem-inicial img {
+  margin-top: 10px;
   width: 100%;
-  overflow: hidden;
-}
-
-.container {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 70px;
-  padding: 0 20px;
-}
-.footer h2 {
-  font-size: 24px;
-}
-
-.footer p {
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-.footer a {
-  color: #EFF4F2;
-  text-decoration: none;
-}
-
-.footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer ul li {
-  margin-bottom: 10px;
-}
-
-.whatsapp {
-  width: 23px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.telefone {
-  width: 23px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.email {
-  width: 23px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.fecebook {
-  width: 25px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.instagram {
-  width: 23px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.youtube {
-  width: 32px;
-  height: 23px;
-  background-size: cover;
-  filter: invert(1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.icone-img {
-  width: 23px;
-  height: 20px;
-  margin-right: 2px;
-  vertical-align: middle;
-  filter: invert(1);
-  margin-left: -5px;
-}
-.footer-section,
-.footer-section1 {
-  color: white;
-  padding-right: 10%;
-}
-.footer-section,
-.footer-section1 a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-.footer-section,
-.footer-section1 ul {
-  list-style-type: none;
-}
-
-.footer-section,
-.footer-section1 ul li {
-  margin-left: 0;
 }
 
 /* Solicitar atendimento*/
@@ -222,6 +105,7 @@ h3 {
   margin-top: 80px;
   margin-right: 50px;
 }
+
 .solicitar-conteiner {
   margin: 70px;
   float: left;
@@ -231,7 +115,6 @@ h3 {
   border: 1px solid #75bfab;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
-  overflow: hidden; /* Adicionando overflow para conter o float */
 }
 
 .solicitar-conteiner form {
@@ -243,10 +126,6 @@ h3 {
   width: 150px;
   font-weight: bold;
   color: #526175;
-}
-
-.solicitar-conteiner h1 {
-  color: #75bfab;
 }
 
 .solicitar-conteiner select {
@@ -287,6 +166,7 @@ input[type="datetime-local"] {
   display: flex;
   justify-content: space-around;
 }
+
 .texto h3 {
   padding: 20px;
   text-align: justify;
@@ -294,7 +174,6 @@ input[type="datetime-local"] {
   width: 60%;
   line-height: 28px;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
 }
 .texto {
   display: flex;
@@ -312,6 +191,7 @@ input[type="datetime-local"] {
   border-radius: 20px;
   border: 2px solid #68a897;
 }
+
 .profissional {
   color: #68a897;
   margin-top: 20px;
@@ -323,11 +203,6 @@ input[type="datetime-local"] {
   text-align: center;
 }
 
-/*SLAIDE INICIAL*/
-.imagem-inicial img {
-  margin-top: 10px;
-  width: 100%;
-}
 /* LOGIN */
 
 .login-container {
@@ -503,10 +378,132 @@ text.esp {
   background-color: #68a897;
 }
 
+.footer {
+  background-color: #68a897;
+  color: white;
+  padding: 20px 0;
+  height: 60%;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 70px;
+  padding: 0 20px;
+}
+.footer h2 {
+  font-size: 24px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.footer a {
+  color: #EFF4F2;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.whatsapp {
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.telefone {
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.email {
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.fecebook {
+  width: 25px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.instagram {
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.youtube {
+  width: 32px;
+  height: 23px;
+  background-size: cover;
+  filter: invert(1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.icone-img {
+  width: 23px;
+  height: 20px;
+  margin-right: 2px;
+  vertical-align: middle;
+  filter: invert(1);
+  margin-left: -5px;
+}
+.footer-section,
+.footer-section1 {
+  color: #EFF4F2;
+  padding-right: 10%;
+}
+.footer-section,
+.footer-section1 a {
+  color: #EFF4F2;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-section,
+.footer-section1 ul {
+  list-style-type: none;
+}
+
+.footer-section,
+.footer-section1 ul li {
+  margin-left: 0;
+}
+
 
 /* RESPONSIVIDADE PARA CELULARES */ 
 
-/* Estilos para dispositivos móveis (ARAE PROFISSIONAIS E ESPECIALIZAÇÕES)*/
+/* Estilos para dispositivos móveis (ÁREA PROFISSIONAIS E ESPECIALIZAÇÕES)*/
 @media (max-width: 768px) {
   .profissionais,
   .footer {
