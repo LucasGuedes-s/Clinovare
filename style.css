@@ -45,8 +45,9 @@ h3 {
 
 .nav-bar img{
   position: absolute;
-  width: 390px;
+  width: 430px;
   margin-top: 10px;
+  margin-left: 15px;
 }
 
 .nav-bar a {
