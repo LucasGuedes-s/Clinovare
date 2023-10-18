@@ -45,7 +45,7 @@ h3 {
 
 .nav-bar img{
   position: absolute;
-  width: 430px;
+  width: 450px;
   margin-top: 10px;
   margin-left: 15px;
 }
@@ -64,12 +64,12 @@ h3 {
 
 .nomes-links a {
   text-decoration: none;
-  color: #;
+  color: #68A897;
   font-size: 24px;
   margin: 0 20px;
 }
 .nomes-links a:hover {
-  color: #68A897;
+  color: #75BFAB;
 }
 
 .dropdown {
@@ -531,9 +531,6 @@ input[type="datetime-local"] {
     flex-direction: column; /* Empilhar os elementos verticalmente */
   }
   
-.especializacoes h2{
-    color: red;
-  }
   
   .footer h2 {
     font-size: 30px; /* Reduzir o tamanho da fonte para o título */
