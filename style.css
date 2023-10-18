@@ -64,7 +64,7 @@ h3 {
 
 .nomes-links a {
   text-decoration: none;
-  color: #68A897;
+  color: #;
   font-size: 24px;
   margin: 0 20px;
 }
@@ -530,7 +530,11 @@ input[type="datetime-local"] {
   .container {
     flex-direction: column; /* Empilhar os elementos verticalmente */
   }
-
+  
+.especializacoes h2{
+    color: red;
+  }
+  
   .footer h2 {
     font-size: 30px; /* Reduzir o tamanho da fonte para o título */
   }
