@@ -500,6 +500,30 @@ input[type="date"] {
 /* RESPONSIVIDADE PARA CELULARES */ 
 
 @media (max-width: 768px) {
+  
+  .nav-bar img {
+    position: absolute;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+  
+  .texto {
+    display: flex;
+  }
+  
+  .texto h3 {
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+    line-height: 20px;
+    font-size: 10px;
+  }
+  
+  .texto img {
+    display: none;
+  }
   .profissionais,
   .footer {
     display: flex;
