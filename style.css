@@ -214,16 +214,17 @@ h3 {
 }
 
 .solicitar-conteiner input[type="text"],
-input[type="datetime-local"] {
+input[type="date"] {
   width: 380px;
   margin-left: 35px;
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
+
 .solicitar-conteiner button {
   display: block;
   width: 97%;
