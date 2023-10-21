@@ -391,6 +391,7 @@ input[type="date"] {
 }
 .footer h2 {
   font-size: 24px;
+  
 }
 
 .footer p {
@@ -411,7 +412,14 @@ input[type="date"] {
 .footer ul li {
   margin-bottom: 10px;
 }
+.links-uteis {
+  color: #EFF4F2;
+  margin-left: -20%;
+}
 
+.fale-conosco {
+  color: #EFF4F2;
+}
 .whatsapp {
   width: 23px;
   height: 23px;
