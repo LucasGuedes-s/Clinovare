@@ -496,15 +496,18 @@ input[type="date"] {
   margin-left: 0;
 }
 
-
-
 /* RESPONSIVIDADE PARA CELULARES */
 @media screen and (max-width: 640px) {
-.nav-bar img {
+  .nav-bar img {
     position: absolute;
     width: 250px;
     margin-top: 10px;
     margin-left: 15px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
   }
   .texto {
     display: flex;
@@ -578,10 +581,16 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
- .solicitar-conteiner {
+  .img-solicitar img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .solicitar-conteiner {
     margin: 20px;
     width: 80%;
   }
+
   .solicitar-conteiner label,
   .solicitar-conteiner select,
   .solicitar-conteiner input[type="text"],
@@ -589,7 +598,6 @@ input[type="date"] {
     width: 80%;
     margin-left: 10px;
   }
-  
   /*LOGIN*/
   .login-container {
     width: 90%;
@@ -600,10 +608,16 @@ input[type="date"] {
   }
 }
 @media screen and (min-width: 760px) {
-   h1 {
+  .nav-bar img {
+    position: absolute;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  h1 {
     font-size: 45px;
   }
- 
+
   .solicitar-conteiner label,
   .solicitar-conteiner select,
   .solicitar-conteiner input[type="text"],
@@ -611,13 +625,13 @@ input[type="date"] {
     width: 80%;
     margin-left: 10px;
   }
-  
+
   /*LOGIN*/
 
-  .login-container input{
+  .login-container input {
     width: 100%;
   }
-  
+
   .img-solicitar img {
     margin-top: 20px;
     margin-right: 10px;
