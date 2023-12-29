@@ -578,17 +578,10 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-  .img-solicitar img {
-    max-width: 100%;
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-
-  .solicitar-conteiner {
+ .solicitar-conteiner {
     margin: 20px;
     width: 80%;
   }
-
   .solicitar-conteiner label,
   .solicitar-conteiner select,
   .solicitar-conteiner input[type="text"],
@@ -607,9 +600,8 @@ input[type="date"] {
   }
 }
 @media screen and (min-width: 760px) {
-   .img-solicitar img {
-    margin-top: 20px;
-    margin-right: 10px;
+   h1 {
+    font-size: 45px;
   }
  
   .solicitar-conteiner label,
@@ -626,4 +618,8 @@ input[type="date"] {
     width: 100%;
   }
   
+  .img-solicitar img {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
 }
