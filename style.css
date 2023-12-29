@@ -582,16 +582,10 @@ input[type="date"] {
   
   /*LOGIN*/
   .login-container {
-    width: 90%; 
+    width: 90%;
   }
 
-  .login-container input,
-  .login-container select {
-    font-size: 14px; 
-  }
-
-  #identificador,
-  #senha {
-    background-size: 10px;
+  .login-container input {
+    width: 100%;
   }
 }
