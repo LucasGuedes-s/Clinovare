@@ -497,22 +497,13 @@ input[type="date"] {
 }
 
 /* RESPONSIVIDADE PARA CELULARES */
-
-@media (max-width: 768px){
-   .nav-bar img {
+@media (max-width: 768px) {
+  .nav-bar img {
     position: absolute;
     width: 250px;
     margin-top: 10px;
     margin-left: 15px;
   }
-
-.nav-bar img {
-    position: absolute;
-    width: 250px;
-    margin-top: 10px;
-    margin-left: 15px;
-  }
-
   .texto {
     display: flex;
   }
@@ -565,7 +556,7 @@ input[type="date"] {
     flex-direction: column; /* Empilhar os elementos verticalmente */
   }
 
-  .footer h2 {
+  .footer h1, h2 {
     font-size: 30px; /* Reduzir o tamanho da fonte para o título */
   }
 
@@ -586,7 +577,7 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-    
+
   /*LOGIN*/
   .login-container {
     width: 90%;
