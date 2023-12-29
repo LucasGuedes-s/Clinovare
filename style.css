@@ -499,7 +499,7 @@ input[type="date"] {
 
 
 /* RESPONSIVIDADE PARA CELULARES */
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 640px) {
 .nav-bar img {
     position: absolute;
     width: 250px;
@@ -622,7 +622,7 @@ input[type="date"] {
   
   /*LOGIN*/
 
-  .login-container input {
+  .login-container input{
     width: 100%;
   }
   
