@@ -507,6 +507,9 @@ input[type="date"] {
   .texto {
     display: flex;
   }
+  h1{
+     font-size: 45px; 
+  }
 
   .texto h3 {
     padding: 10px;
@@ -556,10 +559,6 @@ input[type="date"] {
     flex-direction: column; /* Empilhar os elementos verticalmente */
   }
 
-  .footer h1, h2 {
-    font-size: 30px; /* Reduzir o tamanho da fonte para o título */
-  }
-
   .footer p {
     font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
   }
@@ -577,6 +576,27 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
+  
+  /*SOLICITAR*/
+   .img-solicitar img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .solicitar-conteiner {
+    margin: 20px;
+    width: 80%;
+  }
+
+  .solicitar-conteiner label,
+  .solicitar-conteiner select,
+  .solicitar-conteiner input[type="text"],
+  input[type="date"] {
+    width: 80%;
+    margin-left: 10px;
+  }
+
 
   /*LOGIN*/
   .login-container {
