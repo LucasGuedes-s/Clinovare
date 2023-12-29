@@ -497,7 +497,7 @@ input[type="date"] {
 }
 
 /* RESPONSIVIDADE PARA CELULARES */
-@media (max-width: 768px) {
+@media screen and (min-width: 601px) {
   .nav-bar img {
     position: absolute;
     width: 250px;
@@ -507,8 +507,8 @@ input[type="date"] {
   .texto {
     display: flex;
   }
-  h1{
-     font-size: 45px; 
+  h1 {
+    font-size: 45px;
   }
 
   .texto h3 {
@@ -576,9 +576,9 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-  
+
   /*SOLICITAR*/
-   .img-solicitar img {
+  .img-solicitar img {
     max-width: 100%;
     margin-top: 20px;
     margin-right: 10px;
@@ -597,6 +597,115 @@ input[type="date"] {
     margin-left: 10px;
   }
 
+  /*LOGIN*/
+  .login-container {
+    width: 90%;
+  }
+
+  .login-container input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar img {
+    position: absolute;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .texto {
+    display: flex;
+  }
+  h1 {
+    font-size: 45px;
+  }
+
+  .texto h3 {
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  .texto img {
+    display: none;
+  }
+  .profissionais,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .profissional,
+  .footer-section,
+  .footer-section1 {
+    width: 100%;
+    margin-bottom: 20px; /* Adiciona espaço entre as divs */
+    overflow: hidden;
+  }
+
+  .especializacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quadrado-espec {
+    width: 90%;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .footer {
+    text-align: center; /* Centralizar o conteúdo */
+    height: auto; /* Remover a altura fixa */
+  }
+
+  .container {
+    flex-direction: column; /* Empilhar os elementos verticalmente */
+  }
+
+  .footer p {
+    font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
+  }
+
+  .footer ul li {
+    margin-bottom: 5px; /* Reduzir a margem inferior dos itens da lista */
+  }
+  /* Alinhar os nomes abaixo de "Links Úteis" verticalmente */
+  .footer-section1 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-section1 ul li {
+    margin: 5px 0; /* Espaçamento entre os nomes */
+  }
+
+  /*SOLICITAR*/
+  .img-solicitar img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .solicitar-conteiner {
+    margin: 20px;
+    width: 80%;
+  }
+
+  .solicitar-conteiner label,
+  .solicitar-conteiner select,
+  .solicitar-conteiner input[type="text"],
+  input[type="date"] {
+    width: 80%;
+    margin-left: 10px;
+  }
 
   /*LOGIN*/
   .login-container {
