@@ -497,17 +497,12 @@ input[type="date"] {
 }
 
 /* RESPONSIVIDADE PARA CELULARES */
-@media screen and (max-width: 640px) {
-  .nav-bar img {
+@media screen and (max-width: 601px) {
+   .nav-bar img {
     position: absolute;
-    width: 250px;
+    width: 350px;
     margin-top: 10px;
     margin-left: 15px;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    width: 100%;
   }
   .texto {
     display: flex;
@@ -561,17 +556,17 @@ input[type="date"] {
   }
 
   .container {
-    flex-direction: column; /* Empilhar os elementos verticalmente */
+    flex-direction: column; 
   }
 
   .footer p {
-    font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
+    font-size: 14px; 
   }
 
   .footer ul li {
-    margin-bottom: 5px; /* Reduzir a margem inferior dos itens da lista */
+    margin-bottom: 5px; 
   }
-  /* Alinhar os nomes abaixo de "Links Úteis" verticalmente */
+  
   .footer-section1 ul {
     display: flex;
     flex-direction: column;
@@ -598,6 +593,7 @@ input[type="date"] {
     width: 80%;
     margin-left: 10px;
   }
+  
   /*LOGIN*/
   .login-container {
     width: 90%;
@@ -607,13 +603,10 @@ input[type="date"] {
     width: 100%;
   }
 }
-@media screen and (min-width: 760px) {
-  .nav-bar img {
-    position: absolute;
-    width: 250px;
-    margin-top: 10px;
-    margin-left: 15px;
-  }
+
+
+
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 45px;
   }
