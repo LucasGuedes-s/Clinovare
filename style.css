@@ -578,8 +578,6 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-
-  /*SOLICITAR*/
   .img-solicitar img {
     max-width: 100%;
     margin-top: 20px;
@@ -633,9 +631,6 @@ input[type="date"] {
     font-size: 10px;
   }
 
-  .texto img {
-    display: none;
-  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -643,28 +638,18 @@ input[type="date"] {
     overflow: hidden;
   }
 
-  .profissional,
-  .footer-section,
   .footer-section1 {
     width: 100%;
     margin-bottom: 20px; /* Adiciona espaço entre as divs */
     overflow: hidden;
   }
 
-  .quadrado-espec {
-    width: 90%;
-    margin-bottom: 20px;
-    overflow: hidden;
-  }
 
   .footer {
     text-align: center; /* Centralizar o conteúdo */
     height: auto; /* Remover a altura fixa */
   }
 
-  .container {
-    flex-direction: column; /* Empilhar os elementos verticalmente */
-  }
 
   .footer p {
     font-size: 14px; /* Reduzir o tamanho da fonte para o texto */
@@ -683,19 +668,6 @@ input[type="date"] {
   .footer-section1 ul li {
     margin: 5px 0; /* Espaçamento entre os nomes */
   }
-
-  /*SOLICITAR*/
-  .img-solicitar img {
-    max-width: 100%;
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-
-  .solicitar-conteiner {
-    margin: 20px;
-    width: 80%;
-  }
-
   .solicitar-conteiner label,
   .solicitar-conteiner select,
   .solicitar-conteiner input[type="text"],
@@ -704,8 +676,6 @@ input[type="date"] {
     margin-left: 10px;
   }
     /*LOGIN*/
-
-
   .login-container input {
     width: 100%;
   }
