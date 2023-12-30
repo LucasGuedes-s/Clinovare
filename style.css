@@ -497,7 +497,7 @@ input[type="date"] {
 }
 
 /* RESPONSIVIDADE PARA CELULARES */
-@media screen and (max-width: 601px){
+@media screen and (max-width: 678px){
    .nav-bar img {
     position: absolute;
     width: 350px;
@@ -606,7 +606,7 @@ input[type="date"] {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 530px) {
   h1 {
     font-size: 45px;
   }
