@@ -341,7 +341,6 @@ input[type="date"] {
   color: #75bfab;
 }
 
-/* Estilos para o botão flutuante */
 .btn-top {
   display: none;
   position: fixed;
@@ -473,7 +472,7 @@ input[type="date"] {
   margin-left: -5px;
 }
 .links-uteis {
-  margin-left: -23%; /* Ajuste o valor conforme necessário */
+  margin-left: -23%;
 }
 .footer-section,
 .footer-section1 {
