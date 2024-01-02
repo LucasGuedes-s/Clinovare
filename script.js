@@ -33,7 +33,7 @@ function exibirDados(jsonObj){
 }
 
 function enviarDados() {
-  const formulario = document.getElementById('form01');
+  const formulario = document.getElementById('01');
     
     fetch("https://jsonplaceholder.typicode.com/users", {
         method: "POST",
