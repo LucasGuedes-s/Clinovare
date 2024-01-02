@@ -45,6 +45,8 @@ h3 {
   padding: 20px;
   margin-top: 20px;
   margin: 60px;
+  text-align: center;
+
 }
 
 .usuarioInfo p{
@@ -56,9 +58,9 @@ h3 {
   background-color: #68a897;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 20px;
-  border: 2px solid #75bfab;
+  border: 1px solid gray;
   width: 300px;
   padding: 15px;
 }
