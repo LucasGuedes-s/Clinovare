@@ -40,6 +40,7 @@ h3 {
 .usuarioInfo{
   background-color: #75bfab;
   border-radius: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border: 2px solid #68a897;
   padding: 20px;
   margin-top: 20px;
@@ -48,11 +49,13 @@ h3 {
 
 .usuarioInfo p{
   color: white;
+  font-size: 17px;
 }
 
 .usuarioInfo input{
   background-color: #68a897;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   border-radius: 20px;
   border: 2px solid #75bfab;
