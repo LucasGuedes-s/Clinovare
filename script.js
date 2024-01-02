@@ -40,7 +40,7 @@ function enviarDados() {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify("01")
+        body: JSON.stringify()
     })
     .then(response => response.json()).then(data => console.log(data));
 }
