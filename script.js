@@ -8,7 +8,7 @@ function obterDados(){
     req.onload = function(){ // Define um evento a ser executado quando a requisição for carregada com sucesso
         let users = req.response; // Armazena a resposta da requisição na variável 'users'
         //console.log(users);
-        exibirDados(users)
+        //exibirDados(users)
     }
 }
 
@@ -38,7 +38,7 @@ function enviarDados() {
   console.log(formulario)
   const data = Object.fromEntries(formulario); // Converte os dados do FormData em um objeto JavaScript
 
-    fetch("https://jsonplaceholder.typicode.com/users", {
+    fetch("https://jsonplaceholder.typicode.com/posts", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -46,6 +46,8 @@ function enviarDados() {
         body: JSON.stringify(data)
     })
     .then(response => response.json()).then(data => console.log(data));
+  //alert('ALGO');
+  obterDados();
 }
 
 //obterDados();
