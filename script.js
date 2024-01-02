@@ -34,17 +34,19 @@ function exibirDados(jsonObj){
 
 function enviarDados() {
   const formulario = document.getElementById("forms-user");
-  const dados = Object.fromEntries(formulario); // Converte os dados do FormData em um objeto JavaScript
+  console.log('Chegando aqui')
+  console.log(formulario)
+  const data = Object.fromEntries(formulario); // Converte os dados do FormData em um objeto JavaScript
 
     fetch("https://jsonplaceholder.typicode.com/users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(dados)
+        body: JSON.stringify(data)
     })
     .then(response => response.json()).then(data => console.log(data));
 }
 
-obterDados();
-enviarDados(); 
+//obterDados();
+//CC; 

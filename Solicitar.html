@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
     />
+    <script src="script.js"></script>
   </head>
   <body>
     <!--navbar-->
@@ -42,27 +43,27 @@
 
       <form id="forms-user">
         <section>
-          <label>Nome: </label><input type="text" name="identificador" />
+          <label>Nome: </label><input type="text" name="Nome" value="nome" id="idNomeUser"/>
         </section>
         <section>
-          <label>Data de nascimento: </label><input type="date" />
+          <label>Data de nascimento: </label><input type="date" value="data" id="idDataNasc"/>
         </section>
 
         <section>
-          <label>E-mail: </label><input type="text" name="identificador" />
+          <label>E-mail: </label><input type="text" name="Email" value="email" id="idEmail"/>
         </section>
         <section>
-          <label>CPF ou RG: </label><input type="text" name="identificador" />
+          <label>CPF ou RG: </label><input type="text" name="CPF ou RG" value="CPF" id="idCpfUser"/>
         </section>
         <section>
           <label>Data da consulta: </label
-          ><input type="date" name="identificador" />
+          ><input type="date" name="Data de Consulta" value="dataConsul" id="idDataConsul"/>
         </section>
         <section>
           <label>Descrição ou sintomas: </label
-          ><input type="text" name="identificador" />
+          ><input type="text" name="Sintomas" value="sintomas" id="idSintomas"/>
         </section>
-        <button class="enviar-button">Enviar</button>
+        <button class="enviar-button" onclick="enviarDados()">Enviar</button>
       </form>
     </div>
     <section class="img-solicitar">
