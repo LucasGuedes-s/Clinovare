@@ -1,5 +1,5 @@
 function obterDados(){
-    const url = "https://jsonplaceholder.typicode.com/users"; // Define a URL da API do IBGE para obter dados de nomes
+    const url = "https://jsonplaceholder.typicode.com/users"; 
     let req = new XMLHttpRequest(); // Inicializa uma nova requisição HTTP
     req.open("GET", url); // Abre uma conexão para fazer uma solicitação GET na URL especificada
     req.responseType = "json"; // Define o tipo de resposta esperada como JSON
@@ -7,19 +7,18 @@ function obterDados(){
 
     req.onload = function(){ // Define um evento a ser executado quando a requisição for carregada com sucesso
         let users = req.response; // Armazena a resposta da requisição na variável 'users'
-        console.log(users); // Exibe os dados recebidos no console
         exibirDados(users)
     }
 }
 
 function exibirDados(jsonObj){
-    //console.log(jsonObj); // Exibe a lista de usuários no console
-
-    let usuarios = jsonObj; // Extrai a propriedade 'data' do objeto JSON recebido e armazena em 'usuarios'
-    console.log(usuarios); // Exibe a lista de usuários no console
+    let usuarios = jsonObj;
 
     usuarios.forEach(element =>{ // Itera sobre cada elemento da lista 'usuarios'
-        let usuarioDiv = document.createElement('div');
+      
+        let usuarioDiv = document.createElement('div'); //Criação de uma nova DIV
+        usuarioDiv.classList.add('usuarioInfo'); //Adição de uma classe a essa div
+      
         usuarioDiv.innerHTML = `
         <p>ID: ${element.id}</p>
         <p>Nome: ${element.name}</p>

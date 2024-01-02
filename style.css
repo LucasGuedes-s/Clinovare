@@ -37,8 +37,13 @@ h3 {
   color: #526175;
 }
 
-#listaUsuarios{
+.usuarioInfo{
   background-color: #75bfab;
+  border-radius: 50px;
+
+  padding: 20px;
+  margin-top: 20px;
+  margin: 60px;
 }
 .nav-bar {
   background-color: #75bfab;
