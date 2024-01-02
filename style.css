@@ -40,10 +40,16 @@ h3 {
 .usuarioInfo{
   background-color: #75bfab;
   border-radius: 50px;
+  border: 2px solid #68a897;
   padding: 20px;
   margin-top: 20px;
   margin: 60px;
 }
+
+.usuarioInfo p{
+  color: white;
+}
+
 .usuarioInfo input{
   background-color: #ffffff;
   border-radius: 20px;
