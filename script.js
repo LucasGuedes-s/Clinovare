@@ -36,9 +36,12 @@ function enviarDados() {
   const formulario = document.getElementById("forms-user");
   console.log('Chegando aqui')
   console.log(formulario)
+  
   const data = Object.fromEntries(formulario); // Converte os dados do FormData em um objeto JavaScript
+  console.log(data)
+  alert('ALGO');
 
-    fetch("https://jsonplaceholder.typicode.com/posts", {
+  /*fetch("https://jsonplaceholder.typicode.com/posts", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -46,8 +49,7 @@ function enviarDados() {
         body: JSON.stringify(data)
     })
     .then(response => response.json()).then(data => console.log(data));
-  //alert('ALGO');
-  obterDados();
+  //obterDados();*/
 }
 
 //obterDados();
