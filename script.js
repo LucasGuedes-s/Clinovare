@@ -19,18 +19,16 @@ function exibirDados(jsonObj){
     console.log(usuarios); // Exibe a lista de usuários no console
 
     usuarios.forEach(element =>{ // Itera sobre cada elemento da lista 'usuarios'
-        //element.id; // Acessa a propriedade 'id' do elemento (não utilizado)
-        document.body.innerHTML += `ID: ${element.id} </br>`; // Adiciona o ID do elemento ao corpo do documento HTML
-        document.body.innerHTML += `Nome: ${element.name} </br>`; // Adiciona o nome do elemento ao corpo do documento HTML
-        document.body.innerHTML += `Email: ${element.email} </br>`; // Adiciona o nome do elemento ao corpo do documento HTML
-        document.body.innerHTML += `--------------------------------- </br>`; // Adiciona o nome do elemento ao corpo do documento HTML
+        let usuarioDiv = document.createElement('div');
+        usuarioDiv.innerHTML = `
+        <p>ID: ${element.id}</p>
+        <p>Nome: ${element.name}</p>
+        <p>Email: ${element.email}</p>
+        <input type="button" value="chamar">
+        <p>---------------------------------</p>`;  
+    document.getElementById('listaUsuarios').appendChild(usuarioDiv);
 
     });
 }
-/*function teste(){
-  console.log('Teste realizado')
-}
-
-teste()*/
 
 obterDados()
