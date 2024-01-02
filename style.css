@@ -274,7 +274,7 @@ input[type="date"] {
   width: 35%;
 }
 
-.login-container input {
+.login-container input, select {
   font-size: 18px;
   padding: 7px;
   width: 400px;
@@ -294,13 +294,13 @@ input[type="date"] {
   color: #526175;
 }
 
-.login-container select {
-  width: 100%;
-  padding: 8px;
+/* .login-container select {
+  width: 400px;
+  padding: 7px;
   border: 1px solid #cccccc;
   border-radius: 3px;
   font-size: 18px;
-}
+} */
 
 #identificador {
   background-image: url("https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/user.svg?v=1696384230548");
