@@ -25,8 +25,8 @@ function exibirDados(jsonObj){
         <p>ID: ${element.id}</p>
         <p>Nome: ${element.name}</p>
         <p>Email: ${element.email}</p>
-        <input type="button" value="chamar">
-        <p>---------------------------------</p>`;  
+        <p>---------------------------------</p>
+        <input type="button" value="chamar">`;  
     document.getElementById('listaUsuarios').appendChild(usuarioDiv);
 
     });
