@@ -34,6 +34,7 @@ function exibirDados(jsonObj){
 
 function enviarDados() {
   const formulario = document.getElementById("formUser");
+  const formData = new FormData(formulario);
   
   console.log('Chegando aqui')
   console.log(formulario)
