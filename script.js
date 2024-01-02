@@ -1,5 +1,5 @@
 function obterDados(){
-    const url = "https://servicodados.ibge.gov.br/api/v2/censos/nomes"; // Define a URL da API do IBGE para obter dados de nomes
+    const url = "https://jsonplaceholder.typicode.com/users"; // Define a URL da API do IBGE para obter dados de nomes
     let req = new XMLHttpRequest(); // Inicializa uma nova requisição HTTP
     req.open("GET", url); // Abre uma conexão para fazer uma solicitação GET na URL especificada
     req.responseType = "json"; // Define o tipo de resposta esperada como JSON
