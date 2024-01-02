@@ -1,5 +1,5 @@
 function obterDados(){
-    const url = "https://reqres.in/api/users"; // Define a URL da API do IBGE para obter dados de nomes
+    const url = "https://servicodados.ibge.gov.br/api/v2/censos/nomes"; // Define a URL da API do IBGE para obter dados de nomes
     let req = new XMLHttpRequest(); // Inicializa uma nova requisição HTTP
     req.open("GET", url); // Abre uma conexão para fazer uma solicitação GET na URL especificada
     req.responseType = "json"; // Define o tipo de resposta esperada como JSON
@@ -8,7 +8,7 @@ function obterDados(){
     req.onload = function(){ // Define um evento a ser executado quando a requisição for carregada com sucesso
         let users = req.response; // Armazena a resposta da requisição na variável 'users'
         console.log(users); // Exibe os dados recebidos no console
-        exibirDados(users)
+        //exibirDados(users)
     }
 }
 
@@ -26,3 +26,10 @@ function exibirDados(jsonObj){
 
     });
 }
+/*function teste(){
+  console.log('Teste realizado')
+}
+
+teste()*/
+
+obterDados()
