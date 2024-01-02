@@ -7,12 +7,15 @@ function obterDados(){
 
     req.onload = function(){ // Define um evento a ser executado quando a requisição for carregada com sucesso
         let users = req.response; // Armazena a resposta da requisição na variável 'users'
-        exibirDados(users)
-    }
+        console.log(users);
+        exibirDados(users);
+        enviarDados();
+    };
 }
 
 function exibirDados(jsonObj){
     let usuarios = jsonObj;
+    console.log(usuarios);
 
     usuarios.forEach(element =>{ // Itera sobre cada elemento da lista 'usuarios'
       
@@ -29,5 +32,21 @@ function exibirDados(jsonObj){
 
     });
 }
+function enviarDados() {
+    const usuarioNovo = {
+        name: "Novo Usuário",
+        username: "novousuario",
+        email: "novousuario@example.com"
+    };
 
-obterDados()
+    fetch("https://jsonplaceholder.typicode.com/users", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(usuarioNovo)
+    })
+    .then(response => response.json()).then(data => console.log(data));
+}
+
+obterDados();
