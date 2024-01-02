@@ -14,7 +14,6 @@ function obterDados(){
 
 function exibirDados(jsonObj){
     let usuarios = jsonObj;
-    //console.log(usuarios);
 
     usuarios.forEach(element =>{ // Itera sobre cada elemento da lista 'usuarios'
       
@@ -36,13 +35,9 @@ function enviarDados() {
   const formulario = document.getElementById("formUser");
   const formData = new FormData(formulario);
   
-  // console.log('Chegando aqui')
-  // console.log(formData)
   const data = Object.fromEntries(formData); // Converte os dados do FormData em um objeto JavaScript
-  //console.log(data)
-  //alert('ALGO');
-
-  fetch("https://jsonplaceholder.typicode.com/posts", {
+  
+  fetch("https://jsonplaceholder.typicode.com/users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -50,8 +45,4 @@ function enviarDados() {
         body: JSON.stringify(data)
     })
     .then(response => response.json()).then(data => console.log(data));
-  //obterDados();
 }
-
-//obterDados();
-//CC; 
