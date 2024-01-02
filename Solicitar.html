@@ -41,29 +41,16 @@
         <h1>Solicitar Atendimento</h1>
       </div>
 
-      <form id="forms-user">
-        <section>
-          <label>Nome: </label><input type="text" name="Nome" value="" id="idNomeUser"/>
-        </section>
-        <section>
-          <label>Data de nascimento: </label><input type="date" value="" id="idDataNasc"/>
-        </section>
-
-        <section>
-          <label>E-mail: </label><input type="text" name="Email" value="" id="idEmail"/>
-        </section>
-        <section>
-          <label>CPF ou RG: </label><input type="text" name="CPF ou RG" value="" id="idCpfUser"/>
-        </section>
-        <section>
+      <form id="formUser">
+          <label>Nome: </label><input type="text" name="Nome" id="idNomeUser"/>
+          <label>Data de nascimento: </label><input type="date" id="idDataNasc"/>
+          <label>E-mail: </label><input type="text" name="Email" id="idEmail"/>
+          <label>CPF ou RG: </label><input type="text" name="CPF ou RG" id="idCpfUser"/>
           <label>Data da consulta: </label
-          ><input type="date" name="Data de Consulta" value="" id="idDataConsul"/>
-        </section>
-        <section>
+          ><input type="date" name="Data de Consulta" id="idDataConsul"/>
           <label>Descrição ou sintomas: </label
           ><input type="text" name="Sintomas" value="" id="idSintomas"/>
-        </section>
-        <button class="enviar-button" onclick="enviarDados()">Enviar</button>
+          <input type="button" class="enviar-button" onclick="enviarDados()" value="Enviar">
       </form>
     </div>
     <section class="img-solicitar">
