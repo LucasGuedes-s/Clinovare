@@ -64,6 +64,7 @@ h3 {
   width: 300px;
   padding: 15px;
 }
+
 .nav-bar {
   background-color: #75bfab;
   color: #ffffff;
@@ -288,7 +289,10 @@ input[type="date"] {
 }
 
 /* Login */
-
+.enviar-button a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .login-container {
   display: flex;
   margin: 3% auto;
@@ -322,13 +326,6 @@ input[type="date"] {
   color: #526175;
 }
 
-/* .login-container select {
-  width: 400px;
-  padding: 7px;
-  border: 1px solid #cccccc;
-  border-radius: 3px;
-  font-size: 18px;
-} */
 
 #identificador {
   background-image: url("https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/user.svg?v=1696384230548");
@@ -630,7 +627,6 @@ input[type="date"] {
     width: 100%;
   }
 }
-
 
 
 @media screen and (min-width: 530px) {
