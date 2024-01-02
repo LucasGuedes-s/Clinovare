@@ -7,14 +7,14 @@ function obterDados(){
 
     req.onload = function(){ // Define um evento a ser executado quando a requisição for carregada com sucesso
         let users = req.response; // Armazena a resposta da requisição na variável 'users'
-        console.log(users);
+        //console.log(users);
         exibirDados(users)
     }
 }
 
 function exibirDados(jsonObj){
     let usuarios = jsonObj;
-    console.log(usuarios);
+    //console.log(usuarios);
 
     usuarios.forEach(element =>{ // Itera sobre cada elemento da lista 'usuarios'
       
@@ -26,7 +26,7 @@ function exibirDados(jsonObj){
         <p>Nome: ${element.name}</p>
         <p>Email: ${element.email}</p>
         <p>---------------------------------</p>
-        <input type="button" value="chamar">`;  
+        <input type="button" value="Confirmar presença">`;  
     document.getElementById('listaUsuarios').appendChild(usuarioDiv);
 
     });
