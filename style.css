@@ -81,6 +81,14 @@ h3 {
 }
 .enviar-button{
   background-color: #75bfab;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  width: 100px;
+  padding: 10px;
+  margin-left: 10px
 }
 
 .nav-bar {
