@@ -52,7 +52,6 @@ function enviarDados() {
 }
 
 function confirmacao() {
-
   alert(`A mensagem chegará ao usuário via E-mail`);
   const data = prompt("Digite a confirmação da data para enviar ao solicitante")
   
