@@ -36,6 +36,7 @@ function enviarDados() {
   const formData = new FormData(formulario);
   
   const data = Object.fromEntries(formData); // Converte os dados do FormData em um objeto JavaScript
+  console.log(data)
   
   fetch("https://jsonplaceholder.typicode.com/users", {
         method: "POST",
