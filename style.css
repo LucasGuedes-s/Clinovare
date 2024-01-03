@@ -66,7 +66,6 @@ h3 {
 
 .container-button {
   text-align: center;
-  width: 50%;
   margin-top: 15px;
 }
 
@@ -540,6 +539,19 @@ select {
 .footer-section1 ul li {
   margin-left: 0;
 }
+@media screen and (max-width: 478px) {
+  .usuarioInfo {
+    background-color: #75bfab;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #68a897;
+    padding: 20px;
+    text-align: center;
+  }
+  .usuarioInfo input{
+    width: 100px;
+  }
+}
 
 /* RESPONSIVIDADE PARA CELULARES */
 @media screen and (max-width: 678px) {
@@ -554,9 +566,7 @@ select {
     margin-top: 10px;
     margin-left: 15px;
   }
-  .usuarioInfo input{
-    width: 100px;
-  }
+
   .texto {
     display: flex;
   }
@@ -650,7 +660,7 @@ select {
   }
 
   .container-button {
-    width: 50%;
+    width: 75%;
     margin-left: 10px;
   }
   
