@@ -51,8 +51,9 @@ function enviarDados() {
 }
 
 function confirmacao() {
+
+  alert(`A mensagem chegará ao usuário via E-mail`);
+  data = prompt("Digite a confirmação da data para enviar ao solicitante")
   
-  confirmacao = prompt("Digite a confirmação da data para enviar ao solicitante")
-  
-  alert(`Confirmado`);
+  alert(`Confirmado para a data ${this.data}`);
 }
