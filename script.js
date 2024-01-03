@@ -48,12 +48,13 @@ function enviarDados() {
   })
     .then((response) => response.json())
     .then((data) => console.log(data));
+  alert('Atendimento solicitado')
 }
 
 function confirmacao() {
 
   alert(`A mensagem chegará ao usuário via E-mail`);
-  data = prompt("Digite a confirmação da data para enviar ao solicitante")
+  const data = prompt("Digite a confirmação da data para enviar ao solicitante")
   
   alert(`Confirmado para a data ${this.data}`);
 }
