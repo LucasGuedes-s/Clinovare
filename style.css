@@ -268,10 +268,11 @@ input[type="date"] {
 
 }
 
-.solicitar-conteiner button {
+.enviar-solicitar {
   display: block;
-  width: 97%;
+  width: 85%;
   margin-top: 10px;
+  margin-left: 10px;
   padding: 10px;
   background-color: #75bfab;
   color: #ffffff;
