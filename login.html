@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica - Login</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -44,7 +45,7 @@
         <p>Insira seus dados para acessar o conteúdo</p>
       </div>
 
-      <form>
+      <form id="autenticacao">
         <section>
           <input
             type="text"
@@ -57,18 +58,11 @@
         <section>
           <input type="password" name="senha" id="senha" placeholder="Senha" required/>
         </section>
-        <button class="login-button">
-          <a  href="solicitacoes.html">Login</a>
+        <button class="login-button" onclick="autenticar()">
+          <a>Login</a>
         </button>
       </form>
 
-      <!-- <div class="link-cadastro">
-        <p>
-          Não possui uma conta? Cadastre-se<a href="cadastro.html">
-            clicando aqui.</a
-          >
-        </p>
-      </div> -->
     </div>
 
     <!--footer-->

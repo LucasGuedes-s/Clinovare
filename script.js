@@ -51,9 +51,19 @@ function enviarDados() {
   alert('Atendimento solicitado')
 }
 
+function autenticar(){
+  const form = document.getElementById("autenticacao");
+  const formData = new FormData(form);
+  let data = Object.fromEntries(formData);
+  const dados = JSON.stringify(data)
+  
+  if this.dados == 'admin':
+    console.log('LOgado')
+  console.log(data)
+}
+
 function confirmacao() {
   alert(`A mensagem chegará ao usuário via E-mail`);
   const data = prompt("Digite a confirmação da data para enviar ao solicitante")
-  
   alert(`Confirmado para a data ${this.data}`);
 }
