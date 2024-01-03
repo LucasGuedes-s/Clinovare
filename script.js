@@ -1,13 +1,13 @@
  function obterDados() {
   const url = "https://jsonplaceholder.typicode.com/users";
-  let req = new XMLHttpRequest(); // Inicializa uma nova requisição HTTP
-  req.open("GET", url); // Abre uma conexão para fazer uma solicitação GET na URL especificada
-  req.responseType = "json"; // Define o tipo de resposta esperada como JSON
-  req.send(); // Envia a solicitação HTTP
+  let req = new XMLHttpRequest();
+  req.open("GET", url);
+  req.responseType = "json";
+  req.send();
 
   req.onload = function () {
-    // Define um evento a ser executado quando a requisição for carregada com sucesso
-    let users = req.response; // Armazena a resposta da requisição na variável 'users'
+
+    let users = req.response;
     console.log(users);
     exibirDados(users);
   };
@@ -17,10 +17,10 @@ function exibirDados(jsonObj) {
   let usuarios = jsonObj;
 
   usuarios.forEach((element) => {
-    // Itera sobre cada elemento da lista 'usuarios'
+ 
 
-    let usuarioDiv = document.createElement("div"); //Criação de uma nova DIV
-    usuarioDiv.classList.add("usuarioInfo"); //Adição de uma classe a essa div
+    let usuarioDiv = document.createElement("div");
+    usuarioDiv.classList.add("usuarioInfo");
 
     usuarioDiv.innerHTML = `
         <p>ID: ${element.id}</p>
@@ -36,7 +36,7 @@ function enviarDados() {
   const formulario = document.getElementById("formUser");
   const formData = new FormData(formulario);
 
-  const data = Object.fromEntries(formData); // Converte os dados do FormData em um objeto JavaScript
+  const data = Object.fromEntries(formData);
   console.log(data);
 
   fetch("https://jsonplaceholder.typicode.com/users", {
