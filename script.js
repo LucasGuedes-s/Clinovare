@@ -27,7 +27,7 @@ function exibirDados(jsonObj) {
         <p>Nome: ${element.name}</p>
         <p>Email: ${element.email}</p>
         <p>---------------------------------</p>
-        <input type="button" value="Confirmar presença" onclick="confirmacao()">`;
+      <input class="button-confirmar" type="button" value="Confirmar presença" onclick="confirmacao()">`;
     document.getElementById("listaUsuarios").appendChild(usuarioDiv);
   });
 }

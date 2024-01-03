@@ -66,6 +66,7 @@ h3 {
 
 .container-button {
   text-align: center;
+  width: 50%;
   margin-top: 15px;
 }
 
@@ -539,19 +540,7 @@ select {
 .footer-section1 ul li {
   margin-left: 0;
 }
-@media screen and (max-width: 378px) {
-   .nav-bar {
-    width: 100%;
-    margin-top: 0;
-  }
-  
-  .nav-bar img {
-    position: absolute;
-    width: 345px;
-    margin-top: 10px;
-    margin-left: 15px;
-  }
-}
+
 /* RESPONSIVIDADE PARA CELULARES */
 @media screen and (max-width: 678px) {
    .nav-bar {
@@ -565,7 +554,9 @@ select {
     margin-top: 10px;
     margin-left: 15px;
   }
-  
+  .usuarioInfo input{
+    width: 100px;
+  }
   .texto {
     display: flex;
   }
@@ -659,12 +650,12 @@ select {
   }
 
   .container-button {
-    width: 75%;
+    width: 50%;
     margin-left: 10px;
   }
   
   .container-solicitacoes {
-    width: 80%;
+    width: 50%;
     margin-left: 10px;
   }
   
@@ -677,11 +668,7 @@ select {
     width: 100%;
   }
 
-  
-  
 }
-
-
 
 @media screen and (min-width: 530px) {
   h1 {
@@ -696,6 +683,7 @@ select {
     margin-left: 10px;
   }
 
+  
   /*LOGIN*/
 
   .login-container input {
