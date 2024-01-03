@@ -581,7 +581,21 @@ select {
   .texto {
     display: flex;
   }
-  
+  #listaUsuario{
+    display: flex;
+  }
+  .usuarioInfo {
+    background-color: #75bfab;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #68a897;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+  }
+  .usuarioInfo input{
+    width: 100px;
+  }
   h1 {
     font-size: 45px;
   }
