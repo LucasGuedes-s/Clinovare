@@ -544,9 +544,11 @@ select {
     margin-top: 10px;
     margin-left: 15px;
   }
+  
   .texto {
     display: flex;
   }
+  
   h1 {
     font-size: 45px;
   }
@@ -575,7 +577,7 @@ select {
   .footer-section,
   .footer-section1 {
     width: 100%;
-    margin-bottom: 20px; /* Adiciona espaço entre as divs */
+    margin-bottom: 20px;
     overflow: hidden;
   }
 
@@ -584,6 +586,7 @@ select {
     flex-direction: column;
     align-items: center;
   }
+  
   .quadrado-espec {
     width: 90%;
     margin-bottom: 20px;
@@ -591,8 +594,8 @@ select {
   }
 
   .footer {
-    text-align: center; /* Centralizar o conteúdo */
-    height: auto; /* Remover a altura fixa */
+    text-align: center;
+    height: auto;
   }
 
   .container {
@@ -614,7 +617,7 @@ select {
   }
 
   .footer-section1 ul li {
-    margin: 5px 0; /* Espaçamento entre os nomes */
+    margin: 5px 0;
   }
   .img-solicitar img {
     max-width: 100%;
@@ -634,6 +637,16 @@ select {
     margin-left: 10px;
   }
 
+  .container-button {
+    width: 80%;
+    margin-left: 10px;
+  }
+  
+  .container-solicitacoes {
+    width: 80%;
+    margin-left: 10px;
+  }
+  
   /*LOGIN*/
   .login-container {
     width: 80%;
@@ -643,6 +656,8 @@ select {
     width: 100%;
   }
 }
+
+
 
 @media screen and (min-width: 530px) {
   h1 {
