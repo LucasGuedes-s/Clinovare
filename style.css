@@ -368,6 +368,10 @@ select {
   width: 100%;
   align-self: center;
 }
+.login-button a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .login-button:hover {
   cursor: pointer;
@@ -552,7 +556,7 @@ select {
 @media screen and (max-width: 678px) {
    .nav-bar {
     width: 100%;
-    margin-top: 0;
+    margin: 0;
   }
   
   .nav-bar img {
@@ -655,7 +659,7 @@ select {
   }
 
   .container-button {
-    width: 80%;
+    width: 75%;
     margin-left: 10px;
   }
   
