@@ -1,4 +1,4 @@
-function obterDados() {
+ function obterDados() {
   const url = "https://jsonplaceholder.typicode.com/users";
   let req = new XMLHttpRequest(); // Inicializa uma nova requisição HTTP
   req.open("GET", url); // Abre uma conexão para fazer uma solicitação GET na URL especificada
