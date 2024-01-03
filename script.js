@@ -17,7 +17,7 @@ function exibirDados(jsonObj) {
   let usuarios = jsonObj;
 
   usuarios.forEach((element) => {
- 
+
 
     let usuarioDiv = document.createElement("div");
     usuarioDiv.classList.add("usuarioInfo");
