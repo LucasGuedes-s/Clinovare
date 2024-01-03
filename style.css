@@ -37,7 +37,7 @@ h3 {
   color: #526175;
 }
 
-.usuarioInfo{
+.usuarioInfo {
   background-color: #75bfab;
   border-radius: 50px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -46,18 +46,17 @@ h3 {
   margin-top: 20px;
   margin: 60px;
   text-align: center;
-
 }
 
-.usuarioInfo p{
+.usuarioInfo p {
   color: white;
   font-size: 17px;
 }
 
-.usuarioInfo input{
+.usuarioInfo input {
   background-color: #68a897;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   border-radius: 20px;
   border: 1px solid gray;
@@ -67,13 +66,13 @@ h3 {
 
 .container-button {
   text-align: center;
-   margin-top: 15px;
+  margin-top: 15px;
 }
 
-.button-agendamento{
+.button-agendamento {
   background-color: #75bfab;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   border-radius: 15px;
   border: 1px solid gray;
@@ -264,8 +263,7 @@ input[type="date"] {
   border: 1px solid #cccccc;
   border-radius: 3px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .enviar-solicitar {
@@ -324,7 +322,8 @@ input[type="date"] {
   width: 35%;
 }
 
-.login-container input, select {
+.login-container input,
+select {
   font-size: 18px;
   padding: 7px;
   width: 400px;
@@ -343,7 +342,6 @@ input[type="date"] {
   font-weight: bold;
   color: #526175;
 }
-
 
 #identificador {
   background-image: url("https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/user.svg?v=1696384230548");
@@ -539,8 +537,8 @@ input[type="date"] {
 }
 
 /* RESPONSIVIDADE PARA CELULARES */
-@media screen and (max-width: 678px){
-   .nav-bar img {
+@media screen and (max-width: 678px) {
+  .nav-bar img {
     position: absolute;
     width: 345px;
     margin-top: 10px;
@@ -598,17 +596,17 @@ input[type="date"] {
   }
 
   .container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .footer p {
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   .footer ul li {
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
   }
-  
+
   .footer-section1 ul {
     display: flex;
     flex-direction: column;
@@ -635,7 +633,7 @@ input[type="date"] {
     width: 80%;
     margin-left: 10px;
   }
-  
+
   /*LOGIN*/
   .login-container {
     width: 80%;
@@ -645,7 +643,6 @@ input[type="date"] {
     width: 100%;
   }
 }
-
 
 @media screen and (min-width: 530px) {
   h1 {
