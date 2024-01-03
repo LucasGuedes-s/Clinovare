@@ -55,11 +55,14 @@ function autenticar(){
   const form = document.getElementById("autenticacao");
   const formData = new FormData(form);
   let data = Object.fromEntries(formData);
-  const dados = JSON.stringify(data)
   
-  if this.dados == 'admin':
-    console.log('LOgado')
-  console.log(data)
+  if (data.identificador == 'admin' && data.senha == '123'){
+          console.log('Logado')
+          window.location.href = "solicitacoes.html";
+  }
+  else{
+    alert('Usuário ou senhas invalidos')
+  }
 }
 
 function confirmacao() {
