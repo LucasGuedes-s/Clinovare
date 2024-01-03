@@ -51,5 +51,8 @@ function enviarDados() {
 }
 
 function confirmacao() {
+  
+  confirmacao = prompt("Digite a confirmação da data para enviar ao solicitante")
+  
   alert(`Confirmado`);
 }
