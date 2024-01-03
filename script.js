@@ -25,7 +25,7 @@ function exibirDados(jsonObj){
         <p>Nome: ${element.name}</p>
         <p>Email: ${element.email}</p>
         <p>---------------------------------</p>
-        <input type="button" value="Confirmar presença">`;  
+        <input type="button" value="Confirmar presença" onclick="confirmacao(element.name)">`;  
     document.getElementById('listaUsuarios').appendChild(usuarioDiv);
 
     });
@@ -46,4 +46,8 @@ function enviarDados() {
         body: JSON.stringify(data)
     })
     .then(response => response.json()).then(data => console.log(data));
+}
+
+function confirmacao(nome){
+  alert(`${nome} confirmado`)
 }
