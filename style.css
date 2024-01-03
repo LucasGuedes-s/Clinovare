@@ -73,12 +73,12 @@ h3 {
 .button-agendamento{
   background-color: #75bfab;
   color: white;
-  border-radius: 20px;
-  border: 1px solid gray;
-  width: 455px;
-  padding: 15px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  width: 460px;
+  padding: 15px;
 }
 
 .nav-bar {
