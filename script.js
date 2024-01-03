@@ -51,19 +51,6 @@ function enviarDados() {
   alert('Atendimento solicitado')
 }
 
-function autenticar(){
-  const form = document.getElementById("autenticacao");
-  const formData = new FormData(form);
-  let data = Object.fromEntries(formData);
-  
-  if (data.identificador == 'admin' && data.senha == '123'){
-          console.log('Logado')
-          window.location.href = "solicitacoes.html";
-  }
-  else{
-    alert('Usuário ou senhas invalidos')
-  }
-}
 
 function confirmacao() {
   alert(`A mensagem chegará ao usuário via E-mail`);
