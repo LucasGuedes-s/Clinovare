@@ -357,7 +357,7 @@ select {
   background-position: right 10px center;
 }
 
-.login-container button {
+.login-button {
   margin-bottom: 10px;
   margin-left: 4px;
   padding: 5px;
@@ -369,7 +369,7 @@ select {
   align-self: center;
 }
 
-.login-container button:hover {
+.login-button:hover {
   cursor: pointer;
 }
 
@@ -535,11 +535,23 @@ select {
 .footer-section1 ul li {
   margin-left: 0;
 }
-
+@media screen and (max-width: 378px) {
+   .nav-bar {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .nav-bar img {
+    position: absolute;
+    width: 345px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+}
 /* RESPONSIVIDADE PARA CELULARES */
 @media screen and (max-width: 678px) {
    .nav-bar {
-    max-width: 100%;
+    width: 100%;
     margin-top: 0;
   }
   
@@ -660,6 +672,9 @@ select {
   .login-container input {
     width: 100%;
   }
+
+  
+  
 }
 
 
