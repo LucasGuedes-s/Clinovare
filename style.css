@@ -305,10 +305,11 @@ input[type="date"] {
 }
 
 /* Login */
-.enviar-button a{
+.enviar-button a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .login-container {
   display: flex;
   margin: 3% auto;
