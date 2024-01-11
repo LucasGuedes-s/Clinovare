@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clínica - Login</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <title>Cadastro - Clínica</title>
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -19,11 +18,11 @@
           src="https://cdn.glitch.global/4a2b20e8-6502-4ec6-930c-69f52f144c5f/logo.png?v=1697596093017"
         />
       </nav>
-
       <div class="nomes-links">
         <div class="dropdown">
           <a href="#">Clínica</a>
           <div class="dropdown-content">
+            <a href="index.html"> Voltar a página inicial</a>
             <a href="Sobre.html"> Sobre Nós</a>
           </div>
         </div>
@@ -34,35 +33,111 @@
             <a href="SolicitarVacinas.html"> Solicitar Vacina</a>
           </div>
         </div>
-        <a href="login.html">Login</a>
+        <a href="login.html">Login/Cadastro</a>
       </div>
     </header>
+    <div class="content"></div>
 
-    <!--área de login-->
+    <!--área de cadastro-->
     <div class="login-container">
       <div>
-        <h1>Login</h1>
-        <p>Insira seus dados para acessar o conteúdo</p>
+        <h1>Cadastro</h1>
+        <p>Insira os dados solicitados para realizar o cadastro.</p>
       </div>
 
-      <form id="autenticacao">
+      <form>
         <section>
-          <input
+          <label>Nome: </label
+          ><input
             type="text"
-            name="identificador"
-            id="identificador"
-            placeholder="Identificador"
+            name="nome"
+            class="login-input"
+            id="nome-cadastro"
             required
           />
         </section>
+
         <section>
-          <input type="password" name="senha" id="senha" placeholder="Senha" required/>
+          <label>Sobrenome: </label
+          ><input
+            type="text"
+            name="sobrenome"
+            class="login-input"
+            id="sobrenome-cadastro"
+            required
+          />
         </section>
-        <button class="login-button">
-          <a href="solicitacoes.html">Login</a>
-        </button>
+
+        <section>
+          <label for="genero">Gênero: </label>
+          <div class="select-container">
+            <select id="genero" name="genero" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Outro</option>
+              <option value="naoinformado">Prefiro não informar</option>
+            </select>
+          </div>
+        </section>
+
+        <section>
+          <label for="dataNascimento">Data de Nascimento: </label
+          ><input
+            type="date"
+            id="dataNascimento"
+            name="dataNascimento"
+            required
+          />
+        </section>
+
+        <section>
+          <label>E-mail: </label
+          ><input type="email" name="email" id="email" required />
+        </section>
+
+        <section>
+          <label>Telefone: </label
+          ><input type="tel" name="telefone" id="telefone-cadastro" required />
+        </section>
+
+        <section>
+          <label>CPF: </label
+          ><input
+            type="text"
+            name="cpf"
+            id="cpf-cadastro"
+            title="Por favor, insira apenas números"
+            required
+          />
+        </section>
+
+        <section>
+          <label>Senha: </label
+          ><input type="password" name="senha" id="digitar-senha" required />
+        </section>
+
+        <section>
+          <label>Confirmar: </label
+          ><input
+            type="password"
+            name="confirmarSenha"
+            id="confirmar-senha"
+            required
+          />
+        </section>
+
+        <section>
+          <button type="submit" id="cadastro-button">Cadastre-se</button>
+        </section>
       </form>
 
+      <div class="link-cadastro">
+        <p>
+          Já possui uma conta? Faça o login
+          <a href="login.html">clicando aqui.</a>
+        </p>
+      </div>
     </div>
 
     <!--footer-->
